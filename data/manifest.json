@@ -1,0 +1,91 @@
+[
+  {
+    "file": "w2-d1_genre-stories.parquet",
+    "bytes": 20877310,
+    "sha256": "60019d02275465edfc4be8120d3b60f586608a7b2dd2e8912ea5d7fbac450a59",
+    "rows": 6000,
+    "columns": [
+      "genre",
+      "text"
+    ]
+  },
+  {
+    "file": "w2-d2_genre-attributions.parquet",
+    "bytes": 9563475,
+    "sha256": "622f0c14abc30baf7a2da6a976746469a1071782830fb33fbd2f166d13173b1f",
+    "rows": 500,
+    "columns": [
+      "story_id",
+      "true_genre",
+      "letter_to_genre",
+      "correct_letter",
+      "predicted_letter",
+      "prompt",
+      "tokens",
+      "token_offsets",
+      "input_ids",
+      "logits_by_layer",
+      "token_grads",
+      "story_token_mask"
+    ]
+  },
+  {
+    "file": "w2-d3_classifier-genre-lift.parquet",
+    "bytes": 57919,
+    "sha256": "3aaf201011ec1375d849e491d764991227263305019574487629935459a8a00d",
+    "rows": 1250,
+    "columns": [
+      "genre",
+      "word",
+      "grad_mean_across_stories",
+      "grad_sum_across_stories",
+      "n_stories",
+      "n_occurrences",
+      "global_grad_mean",
+      "genre_lift"
+    ]
+  },
+  {
+    "file": "w2-d3_genre-hidden-states.npz",
+    "bytes": 103858435,
+    "sha256": "169b2e3f6b1855a95bbfe140e097b10796d60914c017f23e68f36e20a522a0cf"
+  },
+  {
+    "file": "w2-d3_linear-classifier.npz",
+    "bytes": 101768033,
+    "sha256": "b03ab5ceb5c15c515a599bd36e7c38afa10470cb7291afc7423cbdb28cb037bf"
+  },
+  {
+    "file": "w2-d3_mcqa-genre-lift.parquet",
+    "bytes": 58146,
+    "sha256": "1bdd6ed1fb5f08530825127bff0c391f48696e2a16b0c93424c7f84658055348",
+    "rows": 1250,
+    "columns": [
+      "genre",
+      "word",
+      "grad_mean_across_stories",
+      "grad_sum_across_stories",
+      "n_stories",
+      "n_occurrences",
+      "global_grad_mean",
+      "genre_lift"
+    ]
+  },
+  {
+    "file": "w2-d3_token-attributions.parquet",
+    "bytes": 9170565,
+    "sha256": "5528efff4c92154aeddb1edfd84de70572b64e9e2e927c722874b994fe27244e",
+    "rows": 500,
+    "columns": [
+      "story_id",
+      "true_genre",
+      "predicted_genre",
+      "prompt",
+      "tokens",
+      "token_offsets",
+      "input_ids",
+      "token_grads",
+      "story_token_mask"
+    ]
+  }
+]

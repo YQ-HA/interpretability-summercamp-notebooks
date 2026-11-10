@@ -1,0 +1,11 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "tools/check_integrity.py",
+    "--require-data"
+  ],
+  "started_utc": "2026-10-26T17:54:38.580320+00:00",
+  "elapsed_seconds": 2.66,
+  "returncode": 0,
+  "status": "passed"
+}

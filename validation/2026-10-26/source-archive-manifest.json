@@ -1,0 +1,222 @@
+[
+  {
+    "file": ".gitattributes",
+    "bytes": 64,
+    "sha256": "822855fa2440dd42e2f537fc43e459820b8877e602096c7b471c906f543dff3c"
+  },
+  {
+    "file": ".gitignore",
+    "bytes": 111,
+    "sha256": "184d828d9790ff62fc0964d7112de8c311236941996da384ee432fda00a0f2a0"
+  },
+  {
+    "file": "archive/classroom-raw/Attempt 1.ipynb",
+    "bytes": 3060416,
+    "sha256": "b11639cf9f87a89ed42900873baf9f271e4981ab2145581c4de9d2f081ab438d"
+  },
+  {
+    "file": "archive/classroom-raw/Attempt 3.ipynb",
+    "bytes": 678016,
+    "sha256": "3b8b2423aeb80d12d62aa44b1cb7bda9ddc9356ab3ff7eb75e6b9ce3acc07e36"
+  },
+  {
+    "file": "archive/classroom-raw/Attempt 4.ipynb",
+    "bytes": 57456,
+    "sha256": "7281e2aa88dc692cea6607724569dea48106de0f681116776cd92cbda77ff1cf"
+  },
+  {
+    "file": "archive/classroom-raw/Attempt 5.ipynb",
+    "bytes": 134712,
+    "sha256": "1fcfbd3ac0adce0be729d1bfa47ca093ffd7d7e2be5742c4b2e5efd8e1ec3b0d"
+  },
+  {
+    "file": "archive/classroom-raw/Attempt 6.ipynb",
+    "bytes": 480701,
+    "sha256": "90598b4f04492967ecd5ba0af3c24bfb9e6ad756e61a0f5786fdfdf213f6bc65"
+  },
+  {
+    "file": "archive/classroom-raw/Attempt 7.ipynb",
+    "bytes": 5794,
+    "sha256": "7e7d96e081700d40346053bd003bd14b498ae7b125181ae5a7933d1eeb669734"
+  },
+  {
+    "file": "archive/classroom-raw/Attempt2.ipynb",
+    "bytes": 171610,
+    "sha256": "f2b9bedc588a93f849d82f95835671876a14b8e3301095a477af8fb9d85e1255"
+  },
+  {
+    "file": "archive/classroom-raw/Notes on Attention and everything(1).ipynb",
+    "bytes": 155678,
+    "sha256": "0234884cc68291b3de532b2c87bc3e0613659066ef6d4189e4541ad4a0fa3260"
+  },
+  {
+    "file": "archive/classroom-raw/Notes on Attention and everything.ipynb",
+    "bytes": 155678,
+    "sha256": "0234884cc68291b3de532b2c87bc3e0613659066ef6d4189e4541ad4a0fa3260"
+  },
+  {
+    "file": "archive/classroom-raw/README.md",
+    "bytes": 883,
+    "sha256": "111a7b9cb46e457fe8b974d7c0075765e58cb591e1352a0f3ae97fbd3896ef8d"
+  },
+  {
+    "file": "archive/README.md",
+    "bytes": 436,
+    "sha256": "c5d06dba80b90e98efdb8465d8317f86001674ca1ccc9edb112963fea5093286"
+  },
+  {
+    "file": "data/manifest.json",
+    "bytes": 2245,
+    "sha256": "134d0187b9e10e3ba65ac0d334fbc612a333935c8628f46da8e0d62b3365a163"
+  },
+  {
+    "file": "data/w2-d1_genre-stories.parquet",
+    "bytes": 20877310,
+    "sha256": "60019d02275465edfc4be8120d3b60f586608a7b2dd2e8912ea5d7fbac450a59"
+  },
+  {
+    "file": "data/w2-d2_genre-attributions.parquet",
+    "bytes": 9563475,
+    "sha256": "622f0c14abc30baf7a2da6a976746469a1071782830fb33fbd2f166d13173b1f"
+  },
+  {
+    "file": "data/w2-d3_classifier-genre-lift.parquet",
+    "bytes": 57919,
+    "sha256": "3aaf201011ec1375d849e491d764991227263305019574487629935459a8a00d"
+  },
+  {
+    "file": "data/w2-d3_genre-hidden-states.npz",
+    "bytes": 103858435,
+    "sha256": "169b2e3f6b1855a95bbfe140e097b10796d60914c017f23e68f36e20a522a0cf"
+  },
+  {
+    "file": "data/w2-d3_linear-classifier.npz",
+    "bytes": 101768033,
+    "sha256": "b03ab5ceb5c15c515a599bd36e7c38afa10470cb7291afc7423cbdb28cb037bf"
+  },
+  {
+    "file": "data/w2-d3_mcqa-genre-lift.parquet",
+    "bytes": 58146,
+    "sha256": "1bdd6ed1fb5f08530825127bff0c391f48696e2a16b0c93424c7f84658055348"
+  },
+  {
+    "file": "data/w2-d3_token-attributions.parquet",
+    "bytes": 9170565,
+    "sha256": "5528efff4c92154aeddb1edfd84de70572b64e9e2e927c722874b994fe27244e"
+  },
+  {
+    "file": "docs/AUTHORSHIP.md",
+    "bytes": 2137,
+    "sha256": "5a3e1d4735e56c5ea68d1e38f28ebb1b82783b0ed37fce26141fe8979bb2fc38"
+  },
+  {
+    "file": "docs/COLAB.md",
+    "bytes": 2209,
+    "sha256": "0900e46f217e1548b54792750305156b48f4321deb854e05348e85a144150d16"
+  },
+  {
+    "file": "docs/course-source-manifest.json",
+    "bytes": 3247,
+    "sha256": "0c56bccf337bc110d0b38b3c8626ed3871f04377260f340d61d4768b1e4efe22"
+  },
+  {
+    "file": "docs/COURSE_MAP.md",
+    "bytes": 3374,
+    "sha256": "bbfca6f80351435328cad82d12a8db7b2904c4ab4ca1a629308168cfd84cee29"
+  },
+  {
+    "file": "docs/notebook-manifest.json",
+    "bytes": 75839,
+    "sha256": "16bd916c9d2d6692d16e7c7423e2ceb2a8081e8c822d4e482939348b87006ea2"
+  },
+  {
+    "file": "docs/REPAIRS.md",
+    "bytes": 14904,
+    "sha256": "99097ab3fb53f1abb1121792c3d4ce02fb1c1cdef50b6716826824045eafe779"
+  },
+  {
+    "file": "docs/static-report.json",
+    "bytes": 333,
+    "sha256": "4ab084b8165f7c710b7b25ba1ea99bea359497989905949d1e781c04aab6107e"
+  },
+  {
+    "file": "docs/STATIC_CHECKS.md",
+    "bytes": 1084,
+    "sha256": "375bb125a3315eaed59b6e7fd370185dba93a550503c3870e0874ee388cc2895"
+  },
+  {
+    "file": "notebooks/Attempt 1.ipynb",
+    "bytes": 20557,
+    "sha256": "1e9baa4d8567ba97863c22cffd26c36f2b4424c539604de5da3e40f92a0e4aed"
+  },
+  {
+    "file": "notebooks/Attempt 3.ipynb",
+    "bytes": 14086,
+    "sha256": "583b66586ee4e502bfb66b2e2a20421eb7d3544d28d57f718ad5beade40d28fb"
+  },
+  {
+    "file": "notebooks/Attempt 4.ipynb",
+    "bytes": 32027,
+    "sha256": "6e738da047c48ffd6ebae610a445b708d31edc7ec86b4260fed633a17d337266"
+  },
+  {
+    "file": "notebooks/Attempt 5.ipynb",
+    "bytes": 36075,
+    "sha256": "18ea742a92e546469d54a8ca6a3b7d29013927fcbada886604706d2aec5d67bd"
+  },
+  {
+    "file": "notebooks/Attempt 6.ipynb",
+    "bytes": 24927,
+    "sha256": "dac7776acc4d7fe276ccbcfc89c441dba64be1a9d3158807938f49d4a1e5a700"
+  },
+  {
+    "file": "notebooks/Attempt 7.ipynb",
+    "bytes": 30128,
+    "sha256": "07101ecf5050198417dfbb70a197c5cdef378610881148a52c4a8de2525bc113"
+  },
+  {
+    "file": "notebooks/Attempt2.ipynb",
+    "bytes": 10563,
+    "sha256": "bccd06e4b6dbd9fd0e2739303cfb5af092d75f940e1926f37cd6c3e7246d559d"
+  },
+  {
+    "file": "notebooks/Notes on Attention and everything.ipynb",
+    "bytes": 35520,
+    "sha256": "6ec5c8c7952974e31d3eebe65fa33195e051311db5e7b6f8a71e55546b9ecd25"
+  },
+  {
+    "file": "README.md",
+    "bytes": 4072,
+    "sha256": "b16d8141094815fdc8c550f4808295e6570b42d059a7d3d9e52aaf467eb0051a"
+  },
+  {
+    "file": "requirements.txt",
+    "bytes": 229,
+    "sha256": "88156aca3fbca74303309222dead645f397949470a5a2449769c38598831d777"
+  },
+  {
+    "file": "results/README.md",
+    "bytes": 205,
+    "sha256": "8d6b7b021bded193a2dbe68ce62202e85be959bf2873a93778609e8913ad0893"
+  },
+  {
+    "file": "tests/test_methods.py",
+    "bytes": 3633,
+    "sha256": "0e42c542d20107fa1dbbf56fdc7aa1a6b515d339ed6395e720261db83081cf0d"
+  },
+  {
+    "file": "tools/check_integrity.py",
+    "bytes": 5122,
+    "sha256": "43d6033a5b82bc2414d1fc0576c885730b1d96b510fcd62e23f26a6274eb56af"
+  },
+  {
+    "file": "tools/run_notebook.py",
+    "bytes": 1578,
+    "sha256": "d22a13f9d95871dcb6034faa3a28c68d83de3fdb11d1c29cb21ef4138da23ee1"
+  },
+  {
+    "file": "validation/Classroom_Colab_Validation.ipynb",
+    "bytes": 12546,
+    "sha256": "59ebcbc0cce0027825a40c0e910ccc83661173208f64a380042841641fb724ef"
+  }
+]

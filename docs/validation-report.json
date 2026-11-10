@@ -1,0 +1,114 @@
+{
+  "status": "passed",
+  "validation_date": "2026-10-26",
+  "scope": "Audit of maintainer-executed Colab artifacts; no model rerun",
+  "counts": {
+    "sessions": 8,
+    "code_cells": 334,
+    "executed_nonempty_cells": 306,
+    "blank_cells": 28,
+    "numerical_tests": 6,
+    "figures": 36,
+    "csv_tables": 19,
+    "preserved_source_files": 37,
+    "preserved_result_files": 106
+  },
+  "sessions": [
+    {
+      "session": 1,
+      "notebook": "Attempt 1.ipynb",
+      "status": "passed",
+      "elapsed_seconds": 62.9,
+      "executed_nonempty_cells": 62,
+      "blank_cells": 2,
+      "computational_source_and_notes_match": true,
+      "executed_notebook": "results/session-01/Attempt 1.ipynb"
+    },
+    {
+      "session": 2,
+      "notebook": "Attempt2.ipynb",
+      "status": "passed",
+      "elapsed_seconds": 36.41,
+      "executed_nonempty_cells": 13,
+      "blank_cells": 1,
+      "computational_source_and_notes_match": true,
+      "executed_notebook": "results/session-02/Attempt2.ipynb"
+    },
+    {
+      "session": 3,
+      "notebook": "Attempt 3.ipynb",
+      "status": "passed",
+      "elapsed_seconds": 64.98,
+      "executed_nonempty_cells": 12,
+      "blank_cells": 1,
+      "computational_source_and_notes_match": true,
+      "executed_notebook": "results/session-03/Attempt 3.ipynb"
+    },
+    {
+      "session": 4,
+      "notebook": "Notes on Attention and everything.ipynb",
+      "status": "passed",
+      "elapsed_seconds": 286.25,
+      "executed_nonempty_cells": 50,
+      "blank_cells": 3,
+      "computational_source_and_notes_match": true,
+      "executed_notebook": "results/session-04/Notes on Attention and everything.ipynb"
+    },
+    {
+      "session": 5,
+      "notebook": "Attempt 4.ipynb",
+      "status": "passed",
+      "elapsed_seconds": 54.74,
+      "executed_nonempty_cells": 52,
+      "blank_cells": 2,
+      "computational_source_and_notes_match": true,
+      "executed_notebook": "results/session-05/Attempt 4.ipynb"
+    },
+    {
+      "session": 6,
+      "notebook": "Attempt 5.ipynb",
+      "status": "passed",
+      "elapsed_seconds": 40.38,
+      "executed_nonempty_cells": 44,
+      "blank_cells": 5,
+      "computational_source_and_notes_match": true,
+      "executed_notebook": "results/session-06/Attempt 5.ipynb"
+    },
+    {
+      "session": 7,
+      "notebook": "Attempt 6.ipynb",
+      "status": "passed",
+      "elapsed_seconds": 860.28,
+      "executed_nonempty_cells": 35,
+      "blank_cells": 1,
+      "computational_source_and_notes_match": true,
+      "executed_notebook": "results/session-07/Attempt 6.ipynb"
+    },
+    {
+      "session": 8,
+      "notebook": "Attempt 7.ipynb",
+      "status": "passed",
+      "elapsed_seconds": 178.26,
+      "executed_nonempty_cells": 38,
+      "blank_cells": 13,
+      "computational_source_and_notes_match": true,
+      "executed_notebook": "results/session-08/Attempt 7.ipynb"
+    }
+  ],
+  "trace_status": {
+    "generation_budget": 2048,
+    "generated_tokens": 2048,
+    "reasoning_complete": false,
+    "analyzed_positions": 2047,
+    "segments": 63,
+    "clusters": 3,
+    "model_device": "cuda:0",
+    "model_dtype": "torch.float16"
+  },
+  "limits": [
+    "Session 08 analysis completed on a truncated reasoning trace.",
+    "Working notebooks received navigation updates and had completion labels removed from restored code. Executable code and classroom notes match the validated snapshot.",
+    "The outer executed validation companion was not supplied; all eight executed lesson notebooks and runtime/test logs were supplied."
+  ],
+  "errors": []
+}

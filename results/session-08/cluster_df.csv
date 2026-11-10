@@ -1,0 +1,103 @@
+,lo,hi,step,label,text
+0,0,1,0,2,"
+"
+1,1,36,1,0,"Okay, let's see. The store starts with 40 apples. In the morning, they sell a third of them. So first, I need to figure out how"
+2,36,51,2,0, many apples they sold in the morning. A third of 40 is
+3,51,74,3,1,... let me calculate that. 40 divided by 3 is approximately 13.33. Wait
+4,74,86,4,0,", but you can't sell a third of an apple,"
+5,86,125,5,0," right? Hmm, maybe the problem is just expecting me to do the math regardless of the decimal? So 40 divided by 3 is 13 and 1/3. But"
+6,125,141,6,0," since apples are whole numbers, maybe they just mean 13 apples? Or"
+7,141,166,7,0," maybe it's okay to have a fractional number for the purpose of calculation. Let me check the problem again. It says """
+8,166,202,8,0,"a third of them,"" so maybe it's okay to have a fractional number here. So, 40 divided by 3 is 13.333... So"
+9,202,214,9,1, they sold 13.333... apples in
+10,214,247,10,0," the morning. Then, after that, a delivery adds 18 more apples. So the total apples after the delivery would be 40 - 13"
+11,247,269,11,1,.333... + 18. Let me compute that. 40 - 13
+12,269,283,12,1,".333 is 26.666..., plus"
+13,283,296,13,1, 18 is 44.666... So
+14,296,307,14,1, that's 44 and 2/3 apples
+15,307,347,15,0,". Then, in the afternoon, 25% of the apples in the store are sold. So 25% is 1/4. So 25% of 44"
+16,347,368,16,1,.666... is... let me calculate that. 44.666... divided
+17,368,381,17,1, by 4 is 11.166... So
+18,381,392,18,1, they sold 11.166... apples
+19,392,408,19,0," in the afternoon. Then, the number of apples left would be 44"
+20,408,431,20,1,.666... minus 11.166... which is 33.5. But
+21,431,459,21,0," wait, apples are whole numbers. So maybe I need to round this? But the problem doesn't specify rounding. Hmm. But maybe I"
+22,459,508,22,0," made a mistake in the calculations. Let me check again.
+
+First, starting with 40 apples. Morning sales: 1/3 of 40 is 40/3 ≈ 13.333. So"
+23,508,533,23,1, 40 - 40/3 = 20/3 ≈ 6.666... Then
+24,533,577,24,1, adding 18 apples: 20/3 + 18 = 20/3 + 54/3 = 74/3 ≈ 24.666... Wait
+25,577,641,25,0,", wait, wait! Wait, hold on. Wait, I think I messed up the order. Let me redo this step by step.
+
+Original amount: 40 apples.
+
+Morning sales: 1/3 of 40 is 40/3 ≈ 13.333. So"
+26,641,657,26,1, remaining apples after morning: 40 - 40/3 = (
+27,657,685,27,1,"120/3 - 40/3) = 80/3 ≈ 26.666...
+
+"
+28,685,733,28,1,"Then, a delivery adds 18 apples: 80/3 + 18 = 80/3 + 54/3 = 134/3 ≈ 44.666...
+
+"
+29,733,776,29,1,"Then, 25% of the apples are sold. 25% is 1/4. So 1/4 of 134/3 is (134/3) *"
+30,776,798,30,1," 1/4 = 134/12 ≈ 11.166...
+
+"
+31,798,817,31,1,So remaining apples: 134/3 - 134/12.
+32,817,878,32,1, Let me compute that. 134/3 is equal to 536/12. Then 536/12 - 134/12 = 402/12 = 33.5. So 33.5 apples.
+33,878,902,33,0," But again, since apples are whole numbers, this is a problem. Maybe the question expects fractional apples? Or maybe I"
+34,902,930,34,0," made a mistake in the calculation.
+
+Wait, but maybe the problem is expecting me to do integer operations. Let me think again. If they"
+35,930,1016,35,1," sold a third of the apples in the morning, maybe they sold 13 apples, and then 18 more added, so total apples after delivery is 40 - 13 + 18 = 45. Then, 25% of 45 is 11.25, so 45 - 11.25 = 33.75. But"
+36,1016,1028,36,0," again, this is fractional.
+
+But the problem says ""how"
+37,1028,1047,37,0," many apples are left at closing?"" So maybe the answer is 33.5? But"
+38,1047,1067,38,0, that's not possible. Maybe the problem is designed with whole numbers. Maybe my initial assumption that 
+39,1067,1083,39,0,1/3 of 40 is 13.33 is wrong
+40,1083,1142,40,0,"?
+
+Wait, maybe the problem is in the way the sales are calculated. If they sell a third of the apples in the morning, maybe they sell 13 or 14 apples? But 1/3 of 40 is 13.333... So if"
+41,1142,1159,41,0," they can't sell a fraction, they might round to the nearest whole number. But"
+42,1159,1218,42,0," the problem doesn't specify rounding. Hmm.
+
+Alternatively, maybe the problem is expecting me to do exact fractions. So 40 apples. 1/3 sold: 40/3. Then remaining is 40 - 40/3 = 80/3."
+43,1218,1330,43,1," Then add 18: 80/3 + 18 = 80/3 + 54/3 = 134/3. Then 25% sold: 134/3 * 1/4 = 134/12. Then remaining is 134/3 - 134/12 = 402/12 = 33.5. So 33.5 apples. But since you can't have half an apple,"
+44,1330,1439,44,0," maybe the answer is 34? But that's an assumption.
+
+Alternatively, maybe the problem is intended to have whole numbers, so maybe the sales in the morning is 13 apples, then 40 - 13 = 27. Then add 18: 27 + 18 = 45. Then 25% of 45 is 11.25, so 45 - 11.25 = 33.75. Still fractional.
+
+"
+45,1439,1464,45,0,"Wait, but maybe the problem is in the way the 25% is calculated. Maybe 25% of the"
+46,1464,1480,46,0," apples after the delivery? So if after the delivery, there are 44"
+47,1480,1496,47,1,".666... apples, then 25% is 11"
+48,1496,1511,48,1,".166..., so 44.666... -"
+49,1511,1590,49,0," 11.166... = 33.5. So 33.5 apples. But again, fractional.
+
+Alternatively, maybe the problem is expecting me to consider that when they sell 25% of the apples, they sell an integer number. So if there's 134/3 apples, which is 44 and 2/3,"
+50,1590,1605,50,1, then 25% is 11 and 1/6.
+51,1605,1624,51,1, So 44 and 2/3 - 11 and 1/6 =
+52,1624,1642,52,1, 33 and 1/2. Which is 33.5. So
+53,1642,1749,53,0," again, same result.
+
+But maybe the answer is 34? If the problem is expecting a whole number, maybe they rounded the sales. For example, if they sold 13 apples in the morning, then 40 - 13 = 27. Then add 18: 27 + 18 = 45. Then 25% is 11.25, so 45 - 11.25 = 33.75. If"
+54,1749,1813,54,0," they round to the nearest whole number, that would be 34. But the problem doesn't specify rounding. Hmm.
+
+Alternatively, maybe the problem is designed with exact fractions. So 33.5 is the exact answer. But since apples are whole numbers, maybe the answer is 33.5."
+55,1813,1831,55,0," But that seems odd.
+
+Wait, let me check the problem again. It says ""how"
+56,1831,1859,56,0," many apples are left at closing?"" So maybe the answer is 33.5, but since you can't have half apples, perhaps"
+57,1859,1954,57,0," the problem expects me to consider that the sales are in whole numbers. So maybe the initial sales in the morning is 13 apples, then 40 - 13 = 27. Then add 18: 27 + 18 = 45. Then 25% of 45 is 11.25. So 45 - 11.25 = 33.75."
+58,1954,1973,58,1," But again, 33.75 is 33 and 3/4."
+59,1973,1986,59,0," So maybe the answer is 33.75, but"
+60,1986,2011,60,0," that's not possible. Alternatively, maybe there's a mistake in my calculations.
+
+Wait, let me check once more:
+
+Start"
+61,2011,2041,61,1," with 40.
+
+Morning: 1/3 of 40 is 40/3 ≈13.333."
+62,2041,2047,62,0, So remaining is 40

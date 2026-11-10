@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "scope": "Static inspection only; saved Colab execution is audited separately",
+  "counts": {
+    "notebooks": 8,
+    "code_cells": 334,
+    "archived_files": 10,
+    "data_files": 7,
+    "preserved_comment_lines": 233,
+    "preserved_double_hash_lines": 4
+  },
+  "missing_data": [],
+  "errors": []
+}

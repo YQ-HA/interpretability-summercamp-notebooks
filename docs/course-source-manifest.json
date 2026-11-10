@@ -1,0 +1,95 @@
+{
+  "repository": "https://github.com/digitaltheorylab/2026_interpretability-reader",
+  "retrieved": "2026-10-19",
+  "git_tree_sha": "f49c6c687b5cd95d00aec3c372d5f79ecd54ab5a",
+  "files": [
+    {
+      "path": ".github/workflows/deploy.yml",
+      "sha256": "9c9750cd30ef1158a7e84182935738e005131e73f03b3c7270ad4985bb75429a"
+    },
+    {
+      "path": "chapters/01_overview.md",
+      "sha256": "add4f4a89de41918ba9ddbef6e6f951b39ef0f22d0cdd8e41c9e1765eb392c19"
+    },
+    {
+      "path": "chapters/02_inputs.md",
+      "sha256": "c4087398d2c58cc6d1b2de68cd92da8927574a8e852385276b91f1a7f48f2151"
+    },
+    {
+      "path": "chapters/03_attention.md",
+      "sha256": "dbf6db81bc92042d676793b16e4448b82d8d874cdb5f45d83cfa29862c4ae0a0"
+    },
+    {
+      "path": "chapters/04_outputs.md",
+      "sha256": "a982c9d360508118064cdbcf7b5acf0896a85033d0f32f4d0a5031f55473ad1c"
+    },
+    {
+      "path": "chapters/05_text.md",
+      "sha256": "e73d8fa10e37b5cfad03861a140977486099132d4d9a17c0ba06bbff917f77ac"
+    },
+    {
+      "path": "chapters/06_attribution.md",
+      "sha256": "eea218f530e30e73e27f90d22c48dd94bef3c952166cb249ac67f9290379e348"
+    },
+    {
+      "path": "chapters/07_metamodeling.md",
+      "sha256": "2929d25dc86ff564df2c4f8eb597643b0da5397fc682179478fe8ffcab75f273"
+    },
+    {
+      "path": "chapters/08_reasoning.md",
+      "sha256": "e22e90486608ec30298ff72d718df0e9a2d032f8edba3acb401383e2de081af0"
+    },
+    {
+      "path": "chapters/index.md",
+      "sha256": "bbc351294ea8eedb16ce3483350a0f00553ef6b7f87da30a1c08b1581b0a4846"
+    },
+    {
+      "path": "chapters/utils/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "chapters/utils/plotting.py",
+      "sha256": "9fc02a47e53f8e72d5dba99af169805358ce092202436684401595091fc223db"
+    },
+    {
+      "path": "myst.yml",
+      "sha256": "6108e92126eb3b2d3e2d0c425efb8dd62b6dded89e167c3723a7f4b8f921cb9b"
+    },
+    {
+      "path": "pixi.toml",
+      "sha256": "2af57d5de30d332d0000a5f29d5637e2360fa51a3403847df015fdeff8a710a0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b0417c61f90530c44996bb2391f559accfb94a005d4c1f73df1548f553063963"
+    },
+    {
+      "path": "src/attribute_tokens.py",
+      "sha256": "b6f92986a492930c6fe0a317198ee3a539805e2cb840de8e17355f458e904be1"
+    },
+    {
+      "path": "src/calculate_lift.py",
+      "sha256": "8a21331aa15265868c6687ec3a9970d1fd1f994e0badc689a404562eee3d5cd0"
+    },
+    {
+      "path": "src/classify_mcqa.py",
+      "sha256": "d4d6a080d9a5a1ab196443074814c8babe49c99219e6ed34fbcbac861fa8aadb"
+    },
+    {
+      "path": "src/common.py",
+      "sha256": "f92574b708aa31ea0cac629374e1b565a6818163946fb43003e19ffe97025949"
+    },
+    {
+      "path": "src/extract_hiddens.py",
+      "sha256": "3da829e3a2a8119ea9f425ab90ed14f04522f4458d1d53d375ff4dd07250b5a1"
+    },
+    {
+      "path": "src/generate_stories.py",
+      "sha256": "e0288e7295b201662d8a7cdfa10f1b7e51aea194589477f09acba00a574dd7de"
+    },
+    {
+      "path": "src/train_probe.py",
+      "sha256": "08cb603c8bf0fd924d0cd76172c790ced2d5199d563cbe92c3410b5bd0e0d37b"
+    }
+  ]
+}

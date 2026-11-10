@@ -1,0 +1,46 @@
+,method,metric,value
+0,greedy,support_size,1.0
+1,greedy,entropy,-0.0
+2,greedy,effective_vocab,1.0
+3,greedy,max_prob,1.0
+4,greedy,expected_rank,1.0
+5,multinomial,support_size,50257.0
+6,multinomial,entropy,6.429661273956299
+7,multinomial,effective_vocab,619.9639282226562
+8,multinomial,max_prob,0.06800537556409836
+9,multinomial,expected_rank,633.4298706054688
+10,temp=0.7,support_size,50257.0
+11,temp=0.7,entropy,4.043278217315674
+12,temp=0.7,effective_vocab,57.012939453125
+13,temp=0.7,max_prob,0.2093617171049118
+14,temp=0.7,expected_rank,85.48257446289062
+15,temp=1.3,support_size,50257.0
+16,temp=1.3,entropy,7.879666805267334
+17,temp=1.3,effective_vocab,2642.99169921875
+18,temp=1.3,max_prob,0.02388189360499382
+19,temp=1.3,expected_rank,1769.199462890625
+20,top-k=50,support_size,50.0
+21,top-k=50,entropy,3.3993964195251465
+22,top-k=50,effective_vocab,29.946020126342773
+23,top-k=50,max_prob,0.15203332901000977
+24,top-k=50,expected_rank,13.212569236755371
+25,top-p=0.9,support_size,1668.0
+26,top-p=0.9,entropy,5.7939043045043945
+27,top-p=0.9,effective_vocab,328.2922668457031
+28,top-p=0.9,max_prob,0.07555770874023438
+29,top-p=0.9,expected_rank,209.81356811523438
+30,"top-k=50, top-p=0.9",support_size,37.0
+31,"top-k=50, top-p=0.9",entropy,3.1447863578796387
+32,"top-k=50, top-p=0.9",effective_vocab,23.2147159576416
+33,"top-k=50, top-p=0.9",max_prob,0.1675376296043396
+34,"top-k=50, top-p=0.9",expected_rank,10.09079647064209
+35,"temp=0.7, top-p=0.9",support_size,147.0
+36,"temp=0.7, top-p=0.9",entropy,3.341913938522339
+37,"temp=0.7, top-p=0.9",effective_vocab,28.2731876373291
+38,"temp=0.7, top-p=0.9",max_prob,0.23259307444095612
+39,"temp=0.7, top-p=0.9",expected_rank,16.931013107299805
+40,"temp=1.3, top-p=0.9",support_size,5111.0
+41,"temp=1.3, top-p=0.9",entropy,7.3347392082214355
+42,"temp=1.3, top-p=0.9",effective_vocab,1532.6280517578125
+43,"temp=1.3, top-p=0.9",max_prob,0.026534998789429665
+44,"temp=1.3, top-p=0.9",expected_rank,829.8814697265625

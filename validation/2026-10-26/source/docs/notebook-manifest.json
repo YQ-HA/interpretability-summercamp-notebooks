@@ -1,0 +1,1936 @@
+{
+  "project": "interpretability-classroom-notebooks",
+  "basis": "Instructor-led classroom typing and execution records supplied by YQ-HA",
+  "archives": [
+    {
+      "file": "archive/classroom-raw/Attempt 1.ipynb",
+      "sha256": "b11639cf9f87a89ed42900873baf9f271e4981ab2145581c4de9d2f081ab438d"
+    },
+    {
+      "file": "archive/classroom-raw/Attempt 3.ipynb",
+      "sha256": "3b8b2423aeb80d12d62aa44b1cb7bda9ddc9356ab3ff7eb75e6b9ce3acc07e36"
+    },
+    {
+      "file": "archive/classroom-raw/Attempt 4.ipynb",
+      "sha256": "7281e2aa88dc692cea6607724569dea48106de0f681116776cd92cbda77ff1cf"
+    },
+    {
+      "file": "archive/classroom-raw/Attempt 5.ipynb",
+      "sha256": "1fcfbd3ac0adce0be729d1bfa47ca093ffd7d7e2be5742c4b2e5efd8e1ec3b0d"
+    },
+    {
+      "file": "archive/classroom-raw/Attempt 6.ipynb",
+      "sha256": "90598b4f04492967ecd5ba0af3c24bfb9e6ad756e61a0f5786fdfdf213f6bc65"
+    },
+    {
+      "file": "archive/classroom-raw/Attempt 7.ipynb",
+      "sha256": "7e7d96e081700d40346053bd003bd14b498ae7b125181ae5a7933d1eeb669734"
+    },
+    {
+      "file": "archive/classroom-raw/Attempt2.ipynb",
+      "sha256": "f2b9bedc588a93f849d82f95835671876a14b8e3301095a477af8fb9d85e1255"
+    },
+    {
+      "file": "archive/classroom-raw/Notes on Attention and everything(1).ipynb",
+      "sha256": "0234884cc68291b3de532b2c87bc3e0613659066ef6d4189e4541ad4a0fa3260"
+    },
+    {
+      "file": "archive/classroom-raw/Notes on Attention and everything.ipynb",
+      "sha256": "0234884cc68291b3de532b2c87bc3e0613659066ef6d4189e4541ad4a0fa3260"
+    },
+    {
+      "file": "archive/classroom-raw/README.md",
+      "sha256": "111a7b9cb46e457fe8b974d7c0075765e58cb591e1352a0f3ae97fbd3896ef8d"
+    }
+  ],
+  "sessions": [
+    {
+      "session": 1,
+      "title": "Python and Text Generation",
+      "notebook": "notebooks/Attempt 1.ipynb",
+      "original": "archive/classroom-raw/Attempt 1.ipynb",
+      "chapter": "01_overview.md",
+      "original_cells": [
+        {
+          "index": 0,
+          "id": "cbf0171b-841c-4074-a246-64aea0aa9283",
+          "source_sha256": "fd53e320df49a920c3ce41ebd4e2c80093a7c2d5d899e5b3f4a260652a2fb66d"
+        },
+        {
+          "index": 1,
+          "id": "f5467a2a-5e66-4791-aab6-9b51d163be83",
+          "source_sha256": "5df712fe9eebbf765d13dad75aab555f56b1382e01a0f7377fe8f74d12b2002b"
+        },
+        {
+          "index": 2,
+          "id": "ee663ec9-d19c-457a-852b-e85887238752",
+          "source_sha256": "c420ae3785b43da607465615335d1e8d1d3e4ba2cc825014adadda8a1674376b"
+        },
+        {
+          "index": 3,
+          "id": "c0a875b5-7f3d-4b78-8328-534072bc54e0",
+          "source_sha256": "0ae38aae1700244af22d7d58828ae2a4cf4e76f8b5d25ade580b7c45ec7d8f0b"
+        },
+        {
+          "index": 4,
+          "id": "bdf71ee6-e652-43ad-86e3-71cbac0da17a",
+          "source_sha256": "e1e062ede46c1f04d15c01ca0e13c1990c34c9e45e1912d46e2140df8cb995c0"
+        },
+        {
+          "index": 5,
+          "id": "4f4fca2e-15ff-4eba-abd7-bd50bff00c7a",
+          "source_sha256": "9a593685b849b6fd2622107023854bfcc6e15f207f38b677b735d85b2b04a84a"
+        },
+        {
+          "index": 6,
+          "id": "0db4d351-aff3-4b5b-8c7c-95267724b689",
+          "source_sha256": "843653e0fb8b20663cc37ff5355ebcc214fca3b67522daad1496122f8acb92a7"
+        },
+        {
+          "index": 7,
+          "id": "b240b0d7-5393-4fe7-84dc-34a509a44af5",
+          "source_sha256": "e5b263f44a35b94fd955eca6019d2926ed02d544598de12c0af266bdd67332f3"
+        },
+        {
+          "index": 8,
+          "id": "4a44b01c-4e7d-43c5-aea9-71543720b1fb",
+          "source_sha256": "8fcb999a7cdf450c1b3460cf6d71c7405e177e118a0048082993682fc68c326f"
+        },
+        {
+          "index": 9,
+          "id": "9a13864c-c767-4f8e-9247-8f48a4de85a3",
+          "source_sha256": "900177d3b8876ad69860832f6054c693171a2d4cbe195fd5b783c2d064896a30"
+        },
+        {
+          "index": 10,
+          "id": "2521a7b0-8d6a-42ea-a333-c2dc6b46e744",
+          "source_sha256": "395a130162e64cacab7e469899e8fc8b9f62ef672cf41f5748c6d858f684f943"
+        },
+        {
+          "index": 11,
+          "id": "db26dcbb-ba30-4eb4-b134-ec8ceb079c1c",
+          "source_sha256": "1efe651deccd078b929b1dc8d6f988430bae7eb820ca38d27e3decea4992b85a"
+        },
+        {
+          "index": 12,
+          "id": "d95d2095-85ff-4176-8bd2-c4367cb81cd4",
+          "source_sha256": "44e71daa3df9744f25123e4e271524ed8dd6890c333d29fe436ebafa11efbe75"
+        },
+        {
+          "index": 13,
+          "id": "1ce3e605-c00e-496e-8455-a5e288a16f5b",
+          "source_sha256": "07e6d8f7c2a67aae2debf0ff50e3b19128e812e11fee247441e54b17fba28091"
+        },
+        {
+          "index": 14,
+          "id": "cdd7f3d9-8425-4fcd-815a-a5d9121d3953",
+          "source_sha256": "593a1f1b889c1412836afd3af7ae6b39dfdf8189d07b157b660ec3c44f713c89"
+        },
+        {
+          "index": 15,
+          "id": "b5698ad6-95d9-49e4-a5a6-e709417aa92a",
+          "source_sha256": "3dcbeed0f5eac9212d4ca06ccdae0c61c3c81075a7bbe04b6fd6278fc9740087"
+        },
+        {
+          "index": 16,
+          "id": "39cbe74c-4de9-4953-beca-b80c6741031a",
+          "source_sha256": "519bd7393359d73490b3e9a6f27420854306e5bea39bf2e78f0505b760e8baaa"
+        },
+        {
+          "index": 17,
+          "id": "23e84a35-3d87-4c30-a9c8-7eb5b518311f",
+          "source_sha256": "17dc6290add33f576395b5facc77d61c3186bf9667a64964b26f257306d0a994"
+        },
+        {
+          "index": 18,
+          "id": "431d7b73-1646-4efa-8e1e-dd379e2bcd0f",
+          "source_sha256": "1b03802bcf1a4921eeb6badb79e87e90dd1049f36fd047dbdbb0ee830ff08e92"
+        },
+        {
+          "index": 19,
+          "id": "f7ddf4b6-f87d-4349-96ac-539c96581b18",
+          "source_sha256": "55eff525d3a676c39918cb4a4066eaab69941e97bd3c9d7276ff1ce0fa04b45f"
+        },
+        {
+          "index": 20,
+          "id": "0925c476-b9da-41f2-bb4c-5cba8ada408a",
+          "source_sha256": "8ffee6c543b7754e3e65a7a0844be712f039a52e2fbffb269313891b8a93992b"
+        },
+        {
+          "index": 21,
+          "id": "2449aad1-8cd4-4ef1-ad34-a6f9e0b67ef8",
+          "source_sha256": "3775da4211b2cc788fd2b4d07368c55663c120d6519fe9b4c64e3751f8b610b4"
+        },
+        {
+          "index": 22,
+          "id": "9bd57be0-3ce2-49ea-948f-48cb2791ab35",
+          "source_sha256": "dcbee4ba24d3caf1182ddd945935f4fe5644be8e36ced1936e579b992c05a5a2"
+        },
+        {
+          "index": 23,
+          "id": "cde57bdf-715b-40a7-b20f-bee60c45b6a6",
+          "source_sha256": "fada67b97d0b8865d5a0b58ef41cd41abc3aaa8c5e7862bef0eb100eefe59b72"
+        },
+        {
+          "index": 24,
+          "id": "1c77aeac-768f-401b-b4cf-b5a7401e9efd",
+          "source_sha256": "9cff380847a9fb95c883bf695da7543e1648bdd635aa261da1b4ced7144112b6"
+        },
+        {
+          "index": 25,
+          "id": "ccf50a79-f865-427d-9498-d859faf8f63c",
+          "source_sha256": "9af6e4207472cba01b73d1f67f68a7fa430644f0ece7518556acfab971dfdf77"
+        },
+        {
+          "index": 26,
+          "id": "65358cb6-77fd-4b9a-93c6-94ee4b980c66",
+          "source_sha256": "1cbaf21d262fe70c21d22dec270e61c9a7a0e2215dc144d9cf2e4cd991405ad0"
+        },
+        {
+          "index": 27,
+          "id": "b4909cc8-d437-4f46-a878-58d8e31183ab",
+          "source_sha256": "5ef1aa84e85c903b4141dd2df06b06917dad2e57f0f27e122f532cf436fa583c"
+        },
+        {
+          "index": 28,
+          "id": "6baa06cd-fa2d-4158-98ea-18ea86840656",
+          "source_sha256": "63424a84f88d81ef6c479ce1a7d7e4894f5a71ce66f2470145be2729e3ff7fa0"
+        },
+        {
+          "index": 29,
+          "id": "0827b736-699d-48e2-b90c-fd59f6c5f424",
+          "source_sha256": "d09c0982c7627db9b95cf050fd31a3f8146caedf11ba926bf27d793af2952e68"
+        },
+        {
+          "index": 30,
+          "id": "90300be6-b4ba-4d67-952f-0ebe52390d64",
+          "source_sha256": "391fadcee261b45f5c542ea9b15e65c292bef8c9b08608d6473067f8b8c6595f"
+        },
+        {
+          "index": 31,
+          "id": "dc8414be-b310-40cf-b429-b6e279a2d0cd",
+          "source_sha256": "1e8177e449ed6f69464b29d9aa5d8657a6b8e32b5c5a54a5f177f4bbf369420c"
+        },
+        {
+          "index": 32,
+          "id": "cb998abd-7c5f-4bb0-9289-14122e545429",
+          "source_sha256": "b1fd99052032450e1e5573a76ee60b9e3558b457ea8f04794085aee9887a4ec9"
+        },
+        {
+          "index": 33,
+          "id": "a73c376e-0397-4438-8f8a-0d8cbcc5802a",
+          "source_sha256": "ad922bed86b439c27cc8bae77eeb4e1ce12c52d71e6ed503c00529c1aa92e1e6"
+        },
+        {
+          "index": 34,
+          "id": "40f7c405-bb7a-4597-8f01-61f7dad5fbca",
+          "source_sha256": "bb0d04d47d8c44519de0be90d02a994eebfd547cf3d24c37f0f300b8282814cd"
+        },
+        {
+          "index": 35,
+          "id": "cd7ed75c-6395-41ff-b756-03c1e9dc8b3b",
+          "source_sha256": "3a4c5bd119493b4e22cbe63e4e0820922deb6ddf3d0903193ab9681de0383f13"
+        },
+        {
+          "index": 36,
+          "id": "c5806179-568a-4f7c-8e33-0d66f961e234",
+          "source_sha256": "5e5aaaf9c7eae942f825dd5d9e649ffcc4b751171df0deafb9f5b90e185289bc"
+        },
+        {
+          "index": 37,
+          "id": "c3cc46e9-4eb5-40f5-9165-cc470a94dc95",
+          "source_sha256": "ac85b4f967fa94136c2bf01192f34559327a173b0e1e5db85b447b4641d6ea7c"
+        },
+        {
+          "index": 38,
+          "id": "230ac43d-9d30-4476-bc57-400f266784d5",
+          "source_sha256": "b67c9ddef3e0c3715a3708ecfa296cc461a164bde94c8ba3fd112789b5bed926"
+        },
+        {
+          "index": 39,
+          "id": "ba590d78-f0c6-4205-9315-32654a080a6c",
+          "source_sha256": "dc15369df171e50d110132c3124aba7a6d69dff21c5dfa645ba64b2de77d8356"
+        },
+        {
+          "index": 40,
+          "id": "5289fc1f-9eac-4dea-8243-1860909cc477",
+          "source_sha256": "83c51252824031179726a52fcf482e670e7dec44321fa5c848237a0f0a276a59"
+        },
+        {
+          "index": 41,
+          "id": "1fa3bf66-1456-4219-a544-2673724de599",
+          "source_sha256": "d8fca9deea52981324793bc29eaebe5b8a29629f1060390bc78b1ce33df46e38"
+        },
+        {
+          "index": 42,
+          "id": "9c2cd070-33cb-466c-91cf-23c4da4be774",
+          "source_sha256": "d8fca9deea52981324793bc29eaebe5b8a29629f1060390bc78b1ce33df46e38"
+        },
+        {
+          "index": 43,
+          "id": "190bf1dd-c75c-48ce-b348-afdbfdeabbcd",
+          "source_sha256": "6d6761d5c3cab0d4dd7e38db5ac6813bbbf602cb463e825d37fe252057649c9a"
+        },
+        {
+          "index": 44,
+          "id": "3974c639-6999-4f46-9b27-f1fd99627c35",
+          "source_sha256": "8ff2a66c0c318d7eef6c9ea93d99f3694d9014c635dc5e037d100456e5c473d8"
+        },
+        {
+          "index": 45,
+          "id": "fc2b5c19-cc15-47ac-aff3-b3eca2daa87c",
+          "source_sha256": "26b30e36c00430f8669f608a60c2bfae4ce92caf89d49a32429911e262b896da"
+        },
+        {
+          "index": 46,
+          "id": "834668de-4bda-4739-af7e-34de55efe35e",
+          "source_sha256": "b3faf473d9c9240c3a5b1d0329431082bfd40992868c33a10efa3938157c3427"
+        },
+        {
+          "index": 47,
+          "id": "df9d252d-100d-4a82-9834-f64bbd35aff2",
+          "source_sha256": "ea71dad6daa2baf840c706ef7f3820bfb8543e58fa335433551cbb85378a17da"
+        },
+        {
+          "index": 48,
+          "id": "0243ce66-34b6-447b-bf7f-612e1c170a1b",
+          "source_sha256": "39957e985a6af4f82666101f233efd0b9c68cdfe0c063c62777c35dd5a9fb9bc"
+        },
+        {
+          "index": 49,
+          "id": "e5742b12-6ab1-469a-adfa-44d715386925",
+          "source_sha256": "deeab01a37294cf0d0df5f1510e031501b24651f4e209371e4821b8eb6136f74"
+        },
+        {
+          "index": 50,
+          "id": "2caa2e11-95b7-42bd-8899-42223e258700",
+          "source_sha256": "a3a11a430450ae1ea73147e2465c8f1b26f81b710ffea797d37f31b55f251cbe"
+        },
+        {
+          "index": 51,
+          "id": "c23b31e5-f2ee-4439-929c-1bee171b65b2",
+          "source_sha256": "9123dcbb0b42652b0e105956c68d3ca2ff34584f324fa41a29aedd32b883e131"
+        },
+        {
+          "index": 52,
+          "id": "d7f2b8b2-ec41-4c09-afa0-fc8f1d7aa358",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 53,
+          "id": "f0d570d7-f7c1-4cf4-aacb-cd56b51e3aa9",
+          "source_sha256": "9123dcbb0b42652b0e105956c68d3ca2ff34584f324fa41a29aedd32b883e131"
+        },
+        {
+          "index": 54,
+          "id": "5e488888-927b-40f2-bae6-9efb68bd4c0d",
+          "source_sha256": "7e59251cc1be66b4c67b7a8abd1cbf92b7c99440e99d16e3a57d8f8ac1999140"
+        },
+        {
+          "index": 55,
+          "id": "9d116509-e5ec-4dfe-ac17-cc1401ee3464",
+          "source_sha256": "0a4dc68bb7dc83cf83c6354e80cf9465e7a8d87d58ee108f75d9a6b2d0917bcf"
+        },
+        {
+          "index": 56,
+          "id": "2cb5f89d-d49a-42fa-8ac9-7d630e5d02da",
+          "source_sha256": "6dda7add7c024cc8ce40dec276466ca374ceb7c9ac554635b6932957b7a7677d"
+        },
+        {
+          "index": 57,
+          "id": "962a771c-bd05-49f1-b6e6-b171e7e2ccdb",
+          "source_sha256": "e0ee8bb50685e05fa0f47ed04203ae953fdfd055f5bd2892ea186504254f8c3a"
+        },
+        {
+          "index": 58,
+          "id": "ebb28640-e7c4-40ec-b4ee-eb3d6cfb36d3",
+          "source_sha256": "5ae741eb41432d929d08197bd5ce9218ae95f01a211e13b404c6cc79a1c2d322"
+        },
+        {
+          "index": 59,
+          "id": "f3f2f576-4be7-4950-8879-c41a9cb56dc5",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "repair",
+          "original_cell": 8,
+          "cell_id": "s01-original-008",
+          "reason": "Convert the integer explicitly before concatenating strings.",
+          "before_sha256": "8fcb999a7cdf450c1b3460cf6d71c7405e177e118a0048082993682fc68c326f",
+          "after_sha256": "1cbe5fe87af590057cc6db419a298f6c4d0ec27f7716ed3c0254b85656fb2c5f"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 11,
+          "cell_id": "s01-original-011",
+          "reason": "The original single-quoted string contained unescaped single quotes (SyntaxError).",
+          "before_sha256": "1efe651deccd078b929b1dc8d6f988430bae7eb820ca38d27e3decea4992b85a",
+          "after_sha256": "9c2efd6c494e895d3b6b8958cff33012ba0d0b78e2de2a24dc7c58cbbe233f42"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 28,
+          "cell_id": "s01-original-028",
+          "reason": "Indent the print inside the nested if block.",
+          "before_sha256": "63424a84f88d81ef6c479ce1a7d7e4894f5a71ce66f2470145be2729e3ff7fa0",
+          "after_sha256": "8b26f4dfe02c0d5ab5f5f710097800c89d33e0692d964c9acf5c9533c16d022d"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 37,
+          "cell_id": "s01-original-037",
+          "reason": "Import math before its first use; the later import remains in the classroom sequence.",
+          "before_sha256": "ac85b4f967fa94136c2bf01192f34559327a173b0e1e5db85b447b4641d6ea7c",
+          "after_sha256": "2a4be2c383da347c7896c999482fce581eaadf1b40bfce6d5f1bd3ee7afbf134"
+        },
+        {
+          "kind": "reorder",
+          "original_cell": 56,
+          "reason": "Define output before inspecting it at original cells 54 and 55."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s01-course-completion-002",
+          "near_original_cell": 50,
+          "reason": "Set the seed before the classroom generation example."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s01-course-completion-003",
+          "reason": "Restore the course comparison of generation settings."
+        }
+      ]
+    },
+    {
+      "session": 2,
+      "title": "Tokenization and Embeddings",
+      "notebook": "notebooks/Attempt2.ipynb",
+      "original": "archive/classroom-raw/Attempt2.ipynb",
+      "chapter": "02_inputs.md",
+      "original_cells": [
+        {
+          "index": 0,
+          "id": "34d42769-c309-4a88-a4e8-90db7fbb2cf1",
+          "source_sha256": "83503869b784b616eb5e22e294259a84376b5bb6a0e396532b969c557da994b1"
+        },
+        {
+          "index": 1,
+          "id": "c8277737-2ec8-4ee2-9285-a78dd0cee900",
+          "source_sha256": "c00a8f5b9794b5094085152b2fb2c1b2f77ee24bcddb8f736fa95edb3bc2c802"
+        },
+        {
+          "index": 2,
+          "id": "a5ce8920-7a90-414e-9022-79f17b2cda1d",
+          "source_sha256": "c2a24a7485930ace0bce1ff641ccfe824480c54097574d5f16feeb8880171548"
+        },
+        {
+          "index": 3,
+          "id": "0a2b080d-ae07-403a-90a7-667f798a6cb7",
+          "source_sha256": "d1de4fbfc618244e9dd74284fb14b19075ad07a417706611206209fd4ce6b5c9"
+        },
+        {
+          "index": 4,
+          "id": "bace36f2-bddf-46a8-a297-e315274e667c",
+          "source_sha256": "7eb36eed34b4d76b92b21ca836e09c55f7eeb95dce817dfb40684329fb3c3cac"
+        },
+        {
+          "index": 5,
+          "id": "e9773e71-bc1c-42e9-a277-0efd4fa7a28b",
+          "source_sha256": "8c749f57c4f7ac39bd437837baa6fee9c9e25c92598f3d1747c085e1dceedc4e"
+        },
+        {
+          "index": 6,
+          "id": "2adc1eb0-18b5-40ae-88b0-62ed5bc35e03",
+          "source_sha256": "45a7e84b78b03f892ce47e6b20814c0783924721b5957523fb75514031b56041"
+        },
+        {
+          "index": 7,
+          "id": "584fa0fe-f132-4347-957d-0594403c396b",
+          "source_sha256": "f73c7683924ad2a9566d2eb85dc758a7f2839ee82579be071bce28d78e6c57c0"
+        },
+        {
+          "index": 8,
+          "id": "ed546963-8e94-43ea-954c-318391679796",
+          "source_sha256": "ce2959ea005a0c1e6e408e370fff83afb4132355de8ded7e8fdb54f74be6e1da"
+        },
+        {
+          "index": 9,
+          "id": "70022b1b-fcc7-4173-ba31-747ace71c7e5",
+          "source_sha256": "3d68bcb5ad139dbb58e2db94d66ea1c8e71c838e53c5108318184633620e706a"
+        },
+        {
+          "index": 10,
+          "id": "31b6b5f2-4122-4fc9-a662-2aaaacc2752b",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "repair",
+          "original_cell": 2,
+          "cell_id": "s02-original-002",
+          "reason": "Move the embedding tensor to CPU before NumPy conversion.",
+          "before_sha256": "c2a24a7485930ace0bce1ff641ccfe824480c54097574d5f16feeb8880171548",
+          "after_sha256": "fb67f9fe8e1549d31577a01db8b10f235fe1a3cb047f9fbfee178fbf76cd64f4"
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s02-course-completion-001",
+          "near_original_cell": 4,
+          "reason": "Restore batch tokenization and token identity; encode() is for one text, not a batch."
+        },
+        {
+          "kind": "repair",
+          "original_cell": 9,
+          "cell_id": "s02-original-009",
+          "reason": "Seed the PCA projection for repeatable classroom plots.",
+          "before_sha256": "3d68bcb5ad139dbb58e2db94d66ea1c8e71c838e53c5108318184633620e706a",
+          "after_sha256": "981d1d8ace357ae819f213ac2f999912846823f0250007431cf00c5ce2b477d3"
+        }
+      ]
+    },
+    {
+      "session": 3,
+      "title": "Attention and Hidden States",
+      "notebook": "notebooks/Attempt 3.ipynb",
+      "original": "archive/classroom-raw/Attempt 3.ipynb",
+      "chapter": "03_attention.md",
+      "original_cells": [
+        {
+          "index": 0,
+          "id": "98699db6-3723-4eaa-9b10-9d226b9356f0",
+          "source_sha256": "4b34cfdf712d528ed070d50edda8a7cb7c850079298f7bd907fa339efc4c8412"
+        },
+        {
+          "index": 1,
+          "id": "a1166465-e3f0-4f5b-9048-98538910622d",
+          "source_sha256": "f6dae215140ea4b07d7f1b2d655eac3ead3c1e4af897416f10d5345541a62e6e"
+        },
+        {
+          "index": 2,
+          "id": "0cceacc3-a185-4a2b-a81c-85a0b2dbd89f",
+          "source_sha256": "19e79aecaf26926a4e2d53629c9d9a968acd4942fca57c87f76addf6f41fe8f2"
+        },
+        {
+          "index": 3,
+          "id": "79a418b4-f5e6-4f18-897a-315acf23e8c3",
+          "source_sha256": "f7142ffaf5299de6fc3d4c69427dc2fd6cebab8b83460fc5d59e6b3292ce0867"
+        },
+        {
+          "index": 4,
+          "id": "58b6fa76-e676-4284-a573-cb14f82d78a3",
+          "source_sha256": "d1df986d697afaf0e34329c4ad28d7bc5b3bf7da77521228ff91a4620bc88685"
+        },
+        {
+          "index": 5,
+          "id": "9d9baeb7-7cdc-454e-b94f-9b609009db5b",
+          "source_sha256": "912093bcd36f90d143e13158f6491d1135b292891eab2e67ba11dabbe51b3ecd"
+        },
+        {
+          "index": 6,
+          "id": "082d4e54-a110-488e-82e6-34b451fc6ee8",
+          "source_sha256": "5e497ff518facfb123d4f296b776cb404c98f4bb85b0e9822f1c0c58acf74b75"
+        },
+        {
+          "index": 7,
+          "id": "5880950b-1c54-46ec-a354-3eb500ab1a5a",
+          "source_sha256": "e1f7fd7e5557f74a23b62ecf7c373d96793ee7b2cb91c6d799e80010280c60ef"
+        },
+        {
+          "index": 8,
+          "id": "00f0349f-eb52-42e9-8e3b-447aa90f65c4",
+          "source_sha256": "e9023767e964e1a916b84e98beb5ce03a103c718173d34e6a54433ed54bd9e99"
+        },
+        {
+          "index": 9,
+          "id": "a1c056ec-1d36-46da-8f8b-a68ab7cbed31",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "repair",
+          "original_cell": 4,
+          "cell_id": "s03-original-004",
+          "reason": "Seed randomized PCA; illustrative Q/K projections are distinct from learned model projections.",
+          "before_sha256": "d1df986d697afaf0e34329c4ad28d7bc5b3bf7da77521228ff91a4620bc88685",
+          "after_sha256": "fc34cea098d8163f40cbebf0ee1959e573e760c37739afa142e5d1d44e5c0fa7"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 8,
+          "cell_id": "s03-original-008",
+          "reason": "Clarify the original state slice while keeping the classroom note.",
+          "before_sha256": "e9023767e964e1a916b84e98beb5ce03a103c718173d34e6a54433ed54bd9e99",
+          "after_sha256": "a79cfe1560d2a51f55250569296071016cac6c514d0bf5c413732ecb85db7355"
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s03-course-completion-001",
+          "reason": "Restore the trajectory-distance comparison in the PCA projection."
+        }
+      ]
+    },
+    {
+      "session": 4,
+      "title": "Sampling and Generation",
+      "notebook": "notebooks/Notes on Attention and everything.ipynb",
+      "original": "archive/classroom-raw/Notes on Attention and everything.ipynb",
+      "chapter": "04_outputs.md",
+      "original_cells": [
+        {
+          "index": 0,
+          "id": "ea28f35a-72e3-4765-93b9-68b064d551fc",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 1,
+          "id": "eaed7553-1878-4f80-bbd3-2d0ba26d4b18",
+          "source_sha256": "ec80e92f5d246bf937ae9b97072752e2c3c783211bc6318c961c8a1faa872717"
+        },
+        {
+          "index": 2,
+          "id": "f4c065ee-2d5f-4e6f-8aff-4d3766f8d439",
+          "source_sha256": "d4ac8e911fdee28743d526a79294bfe7e592f19743a6b5fb7cbce4a472fa1575"
+        },
+        {
+          "index": 3,
+          "id": "9df4cdd4-3c66-4785-9a27-132123bdd9e9",
+          "source_sha256": "0fcc336933e81e780e67c6d4f174ae58b9cb4263bd683714cee2723be9192a86"
+        },
+        {
+          "index": 4,
+          "id": "4387a100-0dff-4280-8d8a-d6a048ff3114",
+          "source_sha256": "6545a3eb65d9a852bd260e15b8bc70f61604c19f9e8b2c8475ce692e5a6bb566"
+        },
+        {
+          "index": 5,
+          "id": "bb556d8b-a4e1-49a4-9aa0-8861affe0ff4",
+          "source_sha256": "0e05df05356c4d49b28e61ab9987664278aa3d3ecba7e0514fec06f8cce37425"
+        },
+        {
+          "index": 6,
+          "id": "93c6fbd0-806c-4e7f-ba8e-bf69fe504e79",
+          "source_sha256": "47db34fe267132ef9341590162f86b92b1769918acba898d743ab2db0749ea16"
+        },
+        {
+          "index": 7,
+          "id": "04b77b48-8d8e-4ea1-81bc-c3260553bb34",
+          "source_sha256": "35a605e181c4c77cfe0444086b13cb795f186477cb1f8a84f40898336d167d09"
+        },
+        {
+          "index": 8,
+          "id": "2b218331-6a9f-4c81-8c72-affd1d561764",
+          "source_sha256": "bd29ce0be3b6f8aa3bd2f9f4b4e7019be294968fb08876cc3f399fddad795138"
+        },
+        {
+          "index": 9,
+          "id": "3f4188c4-841f-4bf1-970d-b91d0b46cb0c",
+          "source_sha256": "92e9049ac8ac7b36c77350f94789362635ec2ea1bb2dd5570bd021cee3e10f92"
+        },
+        {
+          "index": 10,
+          "id": "7f3a45cd-85c5-4293-8c66-feaacd120b9b",
+          "source_sha256": "f288e3d3c093a186a387dc7deac0e1d2f3ff3d15a79bd9d5641f0e86f18ae46d"
+        },
+        {
+          "index": 11,
+          "id": "58efd8d2-44de-4a23-8935-f411d736517f",
+          "source_sha256": "b07150d1ad9598ec172e37bc177c75b227cc1bc5de33a01c3def393528a0b63e"
+        },
+        {
+          "index": 12,
+          "id": "cbc75d85-be23-406d-93bb-bfa960536ca4",
+          "source_sha256": "951dd0cc0a73588d239f10c79d4b6c4a9ee9306c3f73bdf42c4d7fc58512c272"
+        },
+        {
+          "index": 13,
+          "id": "3eff521b-6138-44ce-a139-a9f2ee9ea49d",
+          "source_sha256": "a43020507c882d7d920ca07ab51dbb1b90b3f005b94613eeb65d33e9c4a3d4bf"
+        },
+        {
+          "index": 14,
+          "id": "98178e19-37c3-4a28-b99a-0a2cecf506f8",
+          "source_sha256": "be054e8523b5736423d08fcfaf87b944431c8da057f0196178d559ad539de75e"
+        },
+        {
+          "index": 15,
+          "id": "a7864dca-41a8-480d-a56c-9f586950c5e7",
+          "source_sha256": "83df97bf90bd74e65c37d488593d00134530563bccc42784d02164132ae20fc0"
+        },
+        {
+          "index": 16,
+          "id": "5daeb709-bb4c-4e00-b8fb-9c39359d3afa",
+          "source_sha256": "f3ec6a60ea062e27ccfcd923d22946bda512891685d9e72f045a8f55e7b4a78b"
+        },
+        {
+          "index": 17,
+          "id": "962783ac-36c3-48be-a660-31d56d7077b6",
+          "source_sha256": "9102adbdb0f36ffa42dc27f6f5d0dfb700d6d78059955af62840f80ca17c2edf"
+        },
+        {
+          "index": 18,
+          "id": "8645b8c9-0247-4f9a-a0a0-b867c8748aa0",
+          "source_sha256": "562f1496730e28d131a95f83384aaae89a5cb054ed2e8a7c34a87bb62badea86"
+        },
+        {
+          "index": 19,
+          "id": "1960ab1f-abda-453c-9ea6-1e95080ba389",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 20,
+          "id": "84238485-f4b5-44f3-99d2-3c54abe5ca70",
+          "source_sha256": "187d2a138540a05e6c79023cf80695a47dd4ed58df2e8095c0a5b8e2868f91b2"
+        },
+        {
+          "index": 21,
+          "id": "761f1334-409b-48c1-87f3-4f477341d83a",
+          "source_sha256": "7776ea71a762b3acabc8808dc2b53fcd5a0386dd90d5d2d3b7659e76033a661a"
+        },
+        {
+          "index": 22,
+          "id": "12187c53-12a2-48c8-b973-76e2c88e527e",
+          "source_sha256": "baf289725856f43a8ba11b2ac917999db8f303eed20dd8c726ae8a89936b3713"
+        },
+        {
+          "index": 23,
+          "id": "0d6a9e06-72d7-49d3-85d4-b45f87250511",
+          "source_sha256": "eba87928974d86760b29fb147e462fff9c5b9c42dcff317c15dcd9953c9bbe20"
+        },
+        {
+          "index": 24,
+          "id": "6b37a92c-1111-4be6-bd12-93e3045c0523",
+          "source_sha256": "d577a79f8c7906f1ad60e45c22219752b34876187049332c015405095c159376"
+        },
+        {
+          "index": 25,
+          "id": "321fa2ed-8c2f-49dc-a6a2-e13d872f5e5c",
+          "source_sha256": "de04bb56f566f889a273c132c00ac57e17b19db7afd077519a7b7053807dea60"
+        },
+        {
+          "index": 26,
+          "id": "c7578694-1fec-47a1-a8ae-ae3f79814b5e",
+          "source_sha256": "2629356af0632da0939da75e6394b361be5c3790defc453c52f489dd9d2dfd79"
+        },
+        {
+          "index": 27,
+          "id": "842c6708-ff9f-40b4-b53f-0f46a703b72a",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 28,
+          "id": "bc396144-44ea-4180-9921-0edd549e13f0",
+          "source_sha256": "0028b84193850adad3b1a595bc2b5e555cf3bed767eb897fd6bb4d068048d22d"
+        },
+        {
+          "index": 29,
+          "id": "da36e13f-222d-4f38-8ef0-c63739c2bdf0",
+          "source_sha256": "03e9ea4086c6e913b03a804514f6fa68afdc75d30375cf39eedcce0e5e0c2e27"
+        },
+        {
+          "index": 30,
+          "id": "8ad335c9-acd0-4103-9c3b-d5417fea06b8",
+          "source_sha256": "9f579179e89cb9719738c93ca73b47c549f56645a77b2f25df20b366b997b040"
+        },
+        {
+          "index": 31,
+          "id": "4fe5ea4e-1860-4276-8f9d-58e1fe89e006",
+          "source_sha256": "dfb28e9d515f008ddc56d465ce2a8f724f5d828faad0aeeff967a23b23f589b7"
+        },
+        {
+          "index": 32,
+          "id": "67d93cbc-4ff6-4e81-bc50-9fe82a2b3118",
+          "source_sha256": "43d2809a6cc6a1500075061aa85ba9558df9fda86410b730ed4447267f52681a"
+        },
+        {
+          "index": 33,
+          "id": "44177e61-81a9-4af7-81f8-50c164e738f7",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "repair",
+          "original_cell": 21,
+          "reason": "Convert the raw greedy-decoding cell to executable code."
+        },
+        {
+          "kind": "repair",
+          "original_cell": 26,
+          "cell_id": "s04-original-026",
+          "reason": "The top-p example reused top-k and contained an unreachable indented assignment.",
+          "before_sha256": "2629356af0632da0939da75e6394b361be5c3790defc453c52f489dd9d2dfd79",
+          "after_sha256": "aa12c7e8b0551b3546a096b94255ec50e5d820bccd9c0dc9a5284addb9c341b5"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 26,
+          "cell_id": "s04-original-026",
+          "reason": "Sample from the nucleus-filtered distribution in the top-p example.",
+          "before_sha256": "aa12c7e8b0551b3546a096b94255ec50e5d820bccd9c0dc9a5284addb9c341b5",
+          "after_sha256": "cb307b11a5ee88ae04358e76b1e83b3a348976e513110c8157324ab287097446"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 13,
+          "cell_id": "s04-original-013",
+          "reason": "Report exponential overflow explicitly and plot its finite values.",
+          "before_sha256": "a43020507c882d7d920ca07ab51dbb1b90b3f005b94613eeb65d33e9c4a3d4bf",
+          "after_sha256": "6b190a2c30e150c2dc37d7a87fdc7c161565c5f4303021cfcc10fbb21e2487b2"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 25,
+          "cell_id": "s04-original-025",
+          "reason": "A logarithmic histogram requires positive probabilities; filtered-out zeros are not candidates.",
+          "before_sha256": "de04bb56f566f889a273c132c00ac57e17b19db7afd077519a7b7053807dea60",
+          "after_sha256": "15bcd1120e6f19de7d31a31fd6e97232a9323e91599ab244dc89d320d94b31fe"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 32,
+          "cell_id": "s04-original-032",
+          "reason": "Stop the original generation loop on EOS.",
+          "before_sha256": "43d2809a6cc6a1500075061aa85ba9558df9fda86410b730ed4447267f52681a",
+          "after_sha256": "663d64472a25aa09f07749aa5ff118c37b572ba8d6a4154b2bb7be49cf823153"
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-001",
+          "near_original_cell": 16,
+          "reason": "Qualify the determinism note for the greedy example."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-002",
+          "reason": "Restore the temperature-distribution comparison."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-003",
+          "reason": "Restore the temperature-distribution comparison."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-004",
+          "reason": "Restore the temperature-distribution comparison."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-005",
+          "reason": "Restore the course EOS stopping comparison."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-006",
+          "reason": "Restore the course EOS stopping comparison."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-007",
+          "reason": "Restore the course EOS stopping comparison."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-008",
+          "reason": "Restore the course EOS stopping comparison."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-009",
+          "reason": "Restore distribution statistics inline."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-010",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-011",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-012",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-013",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-014",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-015",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-016",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-017",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s04-course-completion-018",
+          "reason": "Restore sampling statistics and perplexity comparisons."
+        }
+      ]
+    },
+    {
+      "session": 5,
+      "title": "Generated Text as Data",
+      "notebook": "notebooks/Attempt 4.ipynb",
+      "original": "archive/classroom-raw/Attempt 4.ipynb",
+      "chapter": "05_text.md",
+      "original_cells": [
+        {
+          "index": 0,
+          "id": "6623b2b9-94b0-47f0-9a83-bc61e18c81c1",
+          "source_sha256": "aaf0e4f5abd3d0e5e9f0b9a3a8b7c16e788fe67109fa37b22123f3800500dac2"
+        },
+        {
+          "index": 1,
+          "id": "1ee6f93b-d26c-4e1b-a807-6c2c99f1e531",
+          "source_sha256": "4aead7f7aa34e0513f48ae1894016f9595b7e935511a27dba176500034dbacf6"
+        },
+        {
+          "index": 2,
+          "id": "7dc452cf-021a-4d4b-9425-01b8a4eddc48",
+          "source_sha256": "5f739f45de468a84d4f56337e23dac7715e516131d0238d08073fecc4e337cb8"
+        },
+        {
+          "index": 3,
+          "id": "c2a4a00a-0bf2-470c-87e1-c4f7397c9d81",
+          "source_sha256": "8c4648faa3c36a56a2cdd182f699427cececbf02d04f1db4e9adfad18ef65a63"
+        },
+        {
+          "index": 4,
+          "id": "9d0e6477-fbe6-442b-8325-ddabae7e95de",
+          "source_sha256": "1c00e664831a42df1641f63857dcc048b891b61db1fece6a5546f47ccb8d230c"
+        },
+        {
+          "index": 5,
+          "id": "c4732492-48e1-4ecf-a786-8dcec17f30f9",
+          "source_sha256": "7e834a61dc06ac33905e6c6098ad19d0722dd649254bb2588b29cbc206a6f718"
+        },
+        {
+          "index": 6,
+          "id": "0b0f8c68-65a1-4941-9664-71ae61b34404",
+          "source_sha256": "7474fb8f94675643cc8c9c5923d61fb9486b0ff6d85aa106406b8b5bbc3c7d42"
+        },
+        {
+          "index": 7,
+          "id": "46748e26-145f-47e2-9f71-f60fc3286278",
+          "source_sha256": "1dce9368c30a4ac29f97ac6919221cc3d43a171187656bfcac5d877d157dc898"
+        },
+        {
+          "index": 8,
+          "id": "47b6089c-3756-451c-99dc-f47b623a854d",
+          "source_sha256": "36dc59f551dce46c2e37a07ebc52fd9ea9257e3812c79fd042d9b17565b12dbb"
+        },
+        {
+          "index": 9,
+          "id": "9b367bc4-49f9-4a78-9015-2f2cd6a160e6",
+          "source_sha256": "7e834a61dc06ac33905e6c6098ad19d0722dd649254bb2588b29cbc206a6f718"
+        },
+        {
+          "index": 10,
+          "id": "841e025a-00dc-4871-8904-3bd479b436fe",
+          "source_sha256": "5425ecbc4e2d101fabd5b645ea5266ce2307a4050c9585b86accc462eba585bc"
+        },
+        {
+          "index": 11,
+          "id": "4a116e60-d2bb-4f4e-b4a3-d027331fcf0c",
+          "source_sha256": "4b68ab3847feda7d6c62c1fbcbeebfa35eab7351ed5e78f4ddadea5df64b8015"
+        },
+        {
+          "index": 12,
+          "id": "55c654be-0245-4cf6-9eea-2bd9759af855",
+          "source_sha256": "a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa"
+        },
+        {
+          "index": 13,
+          "id": "2a6a0fc3-c71c-43cc-b97f-78c0b0840a40",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 14,
+          "id": "f012fb7b-3a7f-43d6-b275-55d537cc688b",
+          "source_sha256": "0946ddb81b75d0eef03a9021801a336630c084c354040c142b084ac5010c1d79"
+        },
+        {
+          "index": 15,
+          "id": "da9270ea-0aae-42b3-892b-d6edf31eae8c",
+          "source_sha256": "f0b459b46d38a0f26c24a81fbc61b66c535812bc9b7adffbf283b5157073fd6a"
+        },
+        {
+          "index": 16,
+          "id": "a8182841-1516-4a97-b987-b05268d17f27",
+          "source_sha256": "de017d310e3d9858bdd456905052d81449b5e80ac01c4db23d4f1721bfebace3"
+        },
+        {
+          "index": 17,
+          "id": "3185b99a-150a-4648-81fb-9dc61f03167f",
+          "source_sha256": "1c7ae962c33038fe3f111e3f1ddbcdb0cca7bb7fa248ec395f94d259cba0cec7"
+        },
+        {
+          "index": 18,
+          "id": "e13b99b5-3a84-4d28-9863-ea949c33f9f7",
+          "source_sha256": "df125a32ce48fe18e57244cc355fe19624d23769454efb5e0745af62def7104f"
+        },
+        {
+          "index": 19,
+          "id": "cb2f20a3-6104-4a9d-b585-9db50ab99c71",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "repair",
+          "original_cell": 16,
+          "cell_id": "s05-original-016",
+          "reason": "fit is a method of the classifier instance, not a standalone function.",
+          "before_sha256": "de017d310e3d9858bdd456905052d81449b5e80ac01c4db23d4f1721bfebace3",
+          "after_sha256": "0537052e5355466a72257b83385b84a16fc325eab3af57149deac67b37d6394e"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 18,
+          "cell_id": "s05-original-018",
+          "reason": "Correct DataFrame capitalization and use parentheses for predict_proba.",
+          "before_sha256": "df125a32ce48fe18e57244cc355fe19624d23769454efb5e0745af62def7104f",
+          "after_sha256": "82a9c0bd5aa6841515fbc58d91af4ad7b6aa933425f839f45a140dfbb7651081"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 14,
+          "cell_id": "s05-original-014",
+          "reason": "Display a small slice while retaining the full sparse X for fitting.",
+          "before_sha256": "0946ddb81b75d0eef03a9021801a336630c084c354040c142b084ac5010c1d79",
+          "after_sha256": "679cb5c4d502b8a40c8683fc4cb6554d7e3259d2e1612fce6b6e772b5b22dd41"
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-001",
+          "reason": "Restore classifier evaluation with vocabulary fitted inside each cross-validation fold."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-002",
+          "reason": "Restore classifier evaluation with vocabulary fitted inside each cross-validation fold."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-003",
+          "reason": "Restore classifier evaluation with vocabulary fitted inside each cross-validation fold."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-004",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-005",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-006",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-007",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-008",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-009",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-010",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-011",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-012",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-013",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-014",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-015",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-016",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-017",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-018",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-019",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-020",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-021",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-022",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-023",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-024",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-025",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-026",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-027",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-028",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-029",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-030",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-031",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s05-course-completion-032",
+          "reason": "Restore the course token-distribution, weighted PMI, KL mixture, and residual steps."
+        }
+      ]
+    },
+    {
+      "session": 6,
+      "title": "Attribution and Logit Lens",
+      "notebook": "notebooks/Attempt 5.ipynb",
+      "original": "archive/classroom-raw/Attempt 5.ipynb",
+      "chapter": "06_attribution.md",
+      "original_cells": [
+        {
+          "index": 0,
+          "id": "a1d40edb-1669-4601-a4ea-3aa926e8a3dd",
+          "source_sha256": "be302c77b0d59b023c7ac04b88566d8ccf9a7ef044de9500cf05f21e38573481"
+        },
+        {
+          "index": 1,
+          "id": "1b72ee62-00ac-461b-bf07-dc996c044016",
+          "source_sha256": "d7fb23c44a662f916d1ff776a81dc7fbef893f810528a0bea60722dd6ef4c28e"
+        },
+        {
+          "index": 2,
+          "id": "608755e3-96e5-4f6f-b589-44249bd4bf8a",
+          "source_sha256": "8a804a1097a1019c86e143e4d6d692ce8edbf1142b9544a3161d401023d45dc0"
+        },
+        {
+          "index": 3,
+          "id": "2ac076e0-ea63-40e1-8b15-b021c540b9a6",
+          "source_sha256": "c93752c53d36eabb043e27f1700f183c4062c9b70b0662c2ec3d40cb1d725d1a"
+        },
+        {
+          "index": 4,
+          "id": "0af30579-aec6-47cc-9a30-2c045953342e",
+          "source_sha256": "3ef73f54932fad34b2d38d19ee17a2f7dab7c3bc8401d2063e16d554b100a743"
+        },
+        {
+          "index": 5,
+          "id": "2a1aba82-baf3-48de-8a2a-107e27668ef7",
+          "source_sha256": "9c0d4f2e8d855dc2cf2493e8cc2e83a9e2c13df76f310a831ec9581c1ba5315f"
+        },
+        {
+          "index": 6,
+          "id": "de9dc5fb-e805-40d8-a181-0298f3ea7340",
+          "source_sha256": "e23307c7706c90126c776c97d1bcbce58469aef6c96759514fbdfa6325e862aa"
+        },
+        {
+          "index": 7,
+          "id": "a7ae0299-f07b-48c6-a067-e52beadca963",
+          "source_sha256": "99790d5a945a670828c7c8af629bf7b67508d8075780b69c98864074392765df"
+        },
+        {
+          "index": 8,
+          "id": "f399476d-361e-4a7e-89e1-3d99fdfc8dba",
+          "source_sha256": "baf0a7c7e743628add739f52f1ade87242cb377bcd4f7a5dcf1da0d5897e2935"
+        },
+        {
+          "index": 9,
+          "id": "33aba3ad-0607-418b-930b-a66bf769b497",
+          "source_sha256": "fa020f1493f855450b0e00c6038711dba745e6d6edca39636a0b116c5dbccf97"
+        },
+        {
+          "index": 10,
+          "id": "a078d5d5-6d0c-4515-9900-8bf738e765fa",
+          "source_sha256": "fa49d9cd34f8e77b737931cbe242b7a3890a45e3a6d459c76a62183a5b93224c"
+        },
+        {
+          "index": 11,
+          "id": "a9ff138f-1a2a-4ac8-8a61-38fffef878d4",
+          "source_sha256": "3d991bd630f7d17abb6882fcc801abef7ea7f61f59bbd37d9c1d17776080714e"
+        },
+        {
+          "index": 12,
+          "id": "a79d119d-8b54-41c2-8923-72ce86837c1a",
+          "source_sha256": "c0b3cf599d0bf3ebc61ac214cb02656ac47faf7023e9aee375eb19a8b4ab5447"
+        },
+        {
+          "index": 13,
+          "id": "87471655-e9a1-4298-bb9a-d2d60f49850a",
+          "source_sha256": "5dea8b78c08046d819758ae6ab2fb4ab545de948e5f5e0cc91e4ebed8070d5c7"
+        },
+        {
+          "index": 14,
+          "id": "cfdf21b5-e9a1-4926-8460-b1e14a300a28",
+          "source_sha256": "67aa8e0c138c4e779f2eda993af39e4831101eb78699c34f1dd9958ed1388dcf"
+        },
+        {
+          "index": 15,
+          "id": "0239d44d-1e35-454b-85e8-50934ac530ff",
+          "source_sha256": "2328dca7db1354196004b599647114919cce5b058336b02e9146d0f814b2d6b3"
+        },
+        {
+          "index": 16,
+          "id": "6dc396fa-77a3-4e4c-91ef-ee5ed4a5c790",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 17,
+          "id": "97b6fac2-1086-48e7-8197-89fc3a2b6ed4",
+          "source_sha256": "dbcbe6d00adda5673e9827ca5c0c8dba54521e7f2d39f77d27110b8de369d127"
+        },
+        {
+          "index": 18,
+          "id": "ce04475d-5bfb-4596-a818-c5187f80e098",
+          "source_sha256": "9801636df012ab925cc59529cc0d7aeba3c0ad70299c9fd8af59508a4e55eacf"
+        },
+        {
+          "index": 19,
+          "id": "afc24cf2-5cfe-4bf6-a816-19da071d6135",
+          "source_sha256": "4b976c60ead89ce891dbfb15d327ec824d9c7d07e2eb894140d9746312503ccd"
+        },
+        {
+          "index": 20,
+          "id": "b80e0588-11b7-45a5-91a0-0ec6a57fbc0b",
+          "source_sha256": "9327dfbeb75220bebff1d1e3f864cc5a9b86d44a5b72f0372396bea25c0981a3"
+        },
+        {
+          "index": 21,
+          "id": "f7cf8c28-db27-48ba-b177-b2964fb5b013",
+          "source_sha256": "4611dcda7b1b5dc2b54393727056027b7b2af7c95f4cfd4b958af1ca3c36b090"
+        },
+        {
+          "index": 22,
+          "id": "3a8a0ae0-5f60-4b12-834d-47c0e5a86501",
+          "source_sha256": "64534073cb081e9b29deadd1c93d13109ee6fa5083514d523aadbca70e528d77"
+        },
+        {
+          "index": 23,
+          "id": "75304f07-bbf3-4240-b9dd-b81635d7c440",
+          "source_sha256": "34a1e742f6bac99e355323b77f58537e64c2bbb6bdc94955668b66866c8c4cb2"
+        },
+        {
+          "index": 24,
+          "id": "8af579c0-76ed-486d-acf8-19194f715229",
+          "source_sha256": "484e05c3cbd11c893365ddbd4bc07d3adb1d1c64d5c177663682f85ba155cbd1"
+        },
+        {
+          "index": 25,
+          "id": "355cf31e-77db-4a71-a5f3-012420af119b",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 26,
+          "id": "81bde746-74db-4068-a8b1-6ce6df5bb74a",
+          "source_sha256": "7650822d25ac5661621e3e049cda9642e576ce1a85f6b5eb10a9ea2e45996650"
+        },
+        {
+          "index": 27,
+          "id": "15e5c064-4b97-497f-9430-01a7b8c25777",
+          "source_sha256": "30df00c84d73572ff7b73e57d99c1d8139f1c52c414eab606bf2f23b2a57cb4f"
+        },
+        {
+          "index": 28,
+          "id": "71765511-cd0c-4422-89e9-71cfcc912b41",
+          "source_sha256": "526e41e44c0d1671e8eb4772f2320d704630617c987caa5e0d39b605e09a52b2"
+        },
+        {
+          "index": 29,
+          "id": "ae9e860c-d1af-4759-9b1b-b9ecc208bbfa",
+          "source_sha256": "c29933790a7b5e96bb4b4364473935c4504e8c3e1845a3170162ed3e385cef07"
+        },
+        {
+          "index": 30,
+          "id": "93fccbdb-3049-496c-84d7-ff9e6348e353",
+          "source_sha256": "e31c2a533ec753b9687610afb2865c16879e0c45ae51d09295a499ee12887f62"
+        },
+        {
+          "index": 31,
+          "id": "7a88fb4c-b3a9-44b3-847b-eda792650445",
+          "source_sha256": "4e91cd93c5ec6da88a5cfd5a8c1bb19fcd18b3199dc8e51167fb163e2fe08db6"
+        },
+        {
+          "index": 32,
+          "id": "8ebe3887-fba1-4401-8698-d0f5d674613a",
+          "source_sha256": "4d9fccbfda1aa489b15855a27b1c675936fb1b5169ed2aa615030e41135d55a6"
+        },
+        {
+          "index": 33,
+          "id": "2941adee-7d7d-457a-a7ba-bb87b7f19f5b",
+          "source_sha256": "9cd35455b7b702886b322bf47efbad6cd2e990a8430f819878c31b8c6da23805"
+        },
+        {
+          "index": 34,
+          "id": "c5ab22e5-45eb-4e85-a404-bdea089f2ed8",
+          "source_sha256": "d15e9968e680da8bd7a76482dd87a0ff8238881545347f3146c72662c1149c29"
+        },
+        {
+          "index": 35,
+          "id": "447b196b-1fd9-468a-bf78-c8a82b8bde8e",
+          "source_sha256": "d91bc86da6cfeabb5bf6d27a68316b70a344d27cc680ae2b362371579a984d3b"
+        },
+        {
+          "index": 36,
+          "id": "7b0fb686-d929-4453-b218-044b5622e6f8",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 37,
+          "id": "094b401e-dc6f-42b3-8cc4-a6e91d1db350",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 38,
+          "id": "78f94831-dcd9-418c-93e8-6ceb3bcda4d2",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "completion",
+          "cell_id": "s06-course-completion-001",
+          "near_original_cell": 17,
+          "reason": "Restore plotting constants before the first facet plot."
+        },
+        {
+          "kind": "repair",
+          "original_cell": 21,
+          "cell_id": "s06-original-021",
+          "reason": "Use the LETTERS constant already defined in this cell.",
+          "before_sha256": "4611dcda7b1b5dc2b54393727056027b7b2af7c95f4cfd4b958af1ca3c36b090",
+          "after_sha256": "33c5a733ebd46bab3772bfe4abc72f7c11beabcc38dbf04f475be178bbc98806"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 15,
+          "cell_id": "s06-original-015",
+          "reason": "Exclude words with no leave-one-genre-out comparison.",
+          "before_sha256": "2328dca7db1354196004b599647114919cce5b058336b02e9146d0f814b2d6b3",
+          "after_sha256": "7d94e5b6ddcd829d284cd3a7d1a86e68e7d23849c4adbdf4a7d4c34da22b6e25"
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s06-course-completion-002",
+          "reason": "Restore layer-wise letter distribution, bias, and prediction-stability analysis."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s06-course-completion-003",
+          "reason": "Restore layer-wise letter distribution, bias, and prediction-stability analysis."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s06-course-completion-004",
+          "reason": "Restore layer-wise letter distribution, bias, and prediction-stability analysis."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s06-course-completion-005",
+          "reason": "Restore layer-wise letter distribution, bias, and prediction-stability analysis."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s06-course-completion-006",
+          "reason": "Restore layer-wise letter distribution, bias, and prediction-stability analysis."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s06-course-completion-007",
+          "reason": "Restore layer-wise letter distribution, bias, and prediction-stability analysis."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s06-course-completion-008",
+          "reason": "Restore layer-wise letter distribution, bias, and prediction-stability analysis."
+        }
+      ]
+    },
+    {
+      "session": 7,
+      "title": "Linear Probes and Metamodeling",
+      "notebook": "notebooks/Attempt 6.ipynb",
+      "original": "archive/classroom-raw/Attempt 6.ipynb",
+      "chapter": "07_metamodeling.md",
+      "original_cells": [
+        {
+          "index": 0,
+          "id": "df95e0f4-2d62-44f2-97c8-6e9b41d7669a",
+          "source_sha256": "ed9def0413fb839da7c909b96ac2e8a123fb10b910688434fe611dae03fe6664"
+        },
+        {
+          "index": 1,
+          "id": "8bafdd35-ccb9-40f0-9274-783d022e0e0a",
+          "source_sha256": "0e43ba948832c6731ea214b2fc58b79accbcbcd547391725b844998665b72273"
+        },
+        {
+          "index": 2,
+          "id": "891b1dda-abc4-4d41-ad07-21e7cbad3d7f",
+          "source_sha256": "a68931f7cad1663f4f3356c1e560ab18ff18dd6e97fad6f62996f64683a552f8"
+        },
+        {
+          "index": 3,
+          "id": "7695f389-3c61-4e42-8a14-9d407e1a006a",
+          "source_sha256": "744797e15a410df57422ab6555e8bbe5243e6cc97a572221db14eb91d0d41536"
+        },
+        {
+          "index": 4,
+          "id": "7c5d1538-ffb6-4a9e-8ba3-dbeeb3486d79",
+          "source_sha256": "cfc7e99de278ee830b751a84ec93bfc2048d1e4d0eb1f0cc4f0395f68f07b116"
+        },
+        {
+          "index": 5,
+          "id": "df38ca2f-450c-460d-afc1-b869fb3a6a0d",
+          "source_sha256": "03e2f8ad6b233fb8fa383be9f853459e58a5a627be48324e6beb6567f9f52dde"
+        },
+        {
+          "index": 6,
+          "id": "ceed53c9-f14f-432a-9849-de835208c2c2",
+          "source_sha256": "47a47c1bd738c9265dede642e0ac4bf0d3f99866a0ec7053bb782db40f638795"
+        },
+        {
+          "index": 7,
+          "id": "b10098c7-b38f-4d9a-95d9-bfb0ee72be82",
+          "source_sha256": "cfc7e99de278ee830b751a84ec93bfc2048d1e4d0eb1f0cc4f0395f68f07b116"
+        },
+        {
+          "index": 8,
+          "id": "4a404e91-b78f-4bf7-9912-8bb48c0f7512",
+          "source_sha256": "f827d7fece0e84b703ef6a15f2c95a7d53b3e060810eea8487aba03e7c985274"
+        },
+        {
+          "index": 9,
+          "id": "5d28a7f9-ecc6-4807-9e02-0d36991c03fd",
+          "source_sha256": "62ca8496d30962e2bcee916e4f9085ed29d6d94823be49ba2ba39415a9d60a49"
+        },
+        {
+          "index": 10,
+          "id": "f456e5cb-a1f5-4e22-ab84-f3f44af6c064",
+          "source_sha256": "70069d54cda4d664bfd460d8250c8f18cec0b7c6d3b037ea51aabcacda10955f"
+        },
+        {
+          "index": 11,
+          "id": "ccf3332a-9fb7-466e-a457-99069e6598cc",
+          "source_sha256": "ab6a9f34e5420f27f68e1a38ffcb7ff7e0deecd077898128d70274d3a33c5ec1"
+        },
+        {
+          "index": 12,
+          "id": "943c57bf-7718-42d4-92ea-5e1f3f17e32f",
+          "source_sha256": "6791a72821d1368f37b380ca8452f5051f16f758de29d5e6e7953b16179011cb"
+        },
+        {
+          "index": 13,
+          "id": "b8b33e8a-7315-41c5-89a2-530a52fa3123",
+          "source_sha256": "226f5e6501f9798cb4a48687dadb460dbbca27e419cc3bb7b30ebd2d8461b159"
+        },
+        {
+          "index": 14,
+          "id": "eb655547-07af-4eac-b1f0-da4a9be54a46",
+          "source_sha256": "8982e16016c113385610ff1bed2179e8a9eb31f22489887efcef01cf4adff625"
+        },
+        {
+          "index": 15,
+          "id": "fe293e23-8dd4-4f6f-ba85-070d7b0954e3",
+          "source_sha256": "ef90d3a9982b15503441f7057b3059670fe51e35942032f788852591ff0f5cf5"
+        },
+        {
+          "index": 16,
+          "id": "7f89189a-d76c-4781-af9f-5ca416f26510",
+          "source_sha256": "3a801f76b65b6a4bb3702c3454a53592497e98e632d907d03d37cd7feaa1024d"
+        },
+        {
+          "index": 17,
+          "id": "afada818-89d7-46b6-96d9-61b10f7d869d",
+          "source_sha256": "db6dbcd412d8d63fec813b13836c8d7847ab0ddce6b29bef1234677917159dc2"
+        },
+        {
+          "index": 18,
+          "id": "8f94dcbf-3442-48db-99c8-be6b90193fee",
+          "source_sha256": "5762c7cdb40d69afca8744d618de13d14ee1c63efa699a650134dc9b2cc297ac"
+        },
+        {
+          "index": 19,
+          "id": "de4297af-6567-42f7-b148-4bf4d7e47024",
+          "source_sha256": "926245b15da7ba964b9d822d995a9f143d692e8cc2b7454ec4c8447713181f88"
+        },
+        {
+          "index": 20,
+          "id": "4f1cb19c-3c40-4420-83ec-025d0718b95f",
+          "source_sha256": "33f64848d7a4a430ce499595bcdb19f05bfe6fb7ba4d0fb3af9ef1f9b1fb639f"
+        },
+        {
+          "index": 21,
+          "id": "f5d87d74-78b0-4d16-af1b-6fdae315d8ba",
+          "source_sha256": "51255bb7bfb3a0c28f68f896d9799c10bca068265f298a7e61bfb34a5101e5fa"
+        },
+        {
+          "index": 22,
+          "id": "c7d52e09-0642-4a4c-95df-a65a6897c3e1",
+          "source_sha256": "5473b093adb8001fd439fe4c40435a59c74dcd2d0c487cec1b071cf7ef6143c1"
+        },
+        {
+          "index": 23,
+          "id": "8bc02f86-713a-4937-9f3d-a131e787cc55",
+          "source_sha256": "62032ddf2fbad452cf519d6d5578d4542109e6b0efec5c1898d03a61a57b7d73"
+        },
+        {
+          "index": 24,
+          "id": "b31657a5-f368-4e70-9033-6ee50e5a4fb8",
+          "source_sha256": "85fa2a4d6888272dd368a8c649d24759aac8d7d900db539563b78f52918da12c"
+        },
+        {
+          "index": 25,
+          "id": "d39f8077-a3ba-4f2f-9db3-e9b83bae4806",
+          "source_sha256": "4c57f2c410b7b428fb4c2ab320ad3fb206930acb47fc2632bb12b22eb248037a"
+        },
+        {
+          "index": 26,
+          "id": "fc845d43-8331-448a-959f-6ca42c4243f8",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "repair",
+          "original_cell": 22,
+          "cell_id": "s07-original-022",
+          "reason": "Interpret classifier columns in the saved class order.",
+          "before_sha256": "5473b093adb8001fd439fe4c40435a59c74dcd2d0c487cec1b071cf7ef6143c1",
+          "after_sha256": "5b2b6f2c007dd3bec738e084d8bb41189c91cdf63aaf67235739566fc777d1ed"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 22,
+          "cell_id": "s07-original-022",
+          "reason": "Align the head test examples by story ID rather than the last-token cache row order.",
+          "before_sha256": "5b2b6f2c007dd3bec738e084d8bb41189c91cdf63aaf67235739566fc777d1ed",
+          "after_sha256": "a3e0263f7b31029f241488053da34654f127ce600059e378c8252fa4bfe3decd"
+        },
+        {
+          "kind": "repair",
+          "original_cell": 25,
+          "cell_id": "s07-original-025",
+          "reason": "Match the capitalization of the dataset genre labels.",
+          "before_sha256": "4c57f2c410b7b428fb4c2ab320ad3fb206930acb47fc2632bb12b22eb248037a",
+          "after_sha256": "1caa6bedef2bc4c210e7913d35b07df11a011b7fa070816c6d15b7c477dd1369"
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s07-course-completion-001",
+          "reason": "Restore sorted word-rank comparisons on the shared saved vocabulary."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s07-course-completion-002",
+          "reason": "Restore sorted word-rank comparisons on the shared saved vocabulary."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s07-course-completion-003",
+          "reason": "Restore sorted word-rank comparisons on the shared saved vocabulary."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s07-course-completion-004",
+          "reason": "Restore sorted word-rank comparisons on the shared saved vocabulary."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s07-course-completion-005",
+          "reason": "Restore sorted word-rank comparisons on the shared saved vocabulary."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s07-course-completion-006",
+          "reason": "Restore sorted word-rank comparisons on the shared saved vocabulary."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s07-course-completion-007",
+          "reason": "Restore sorted word-rank comparisons on the shared saved vocabulary."
+        }
+      ]
+    },
+    {
+      "session": 8,
+      "title": "Reasoning Trajectories",
+      "notebook": "notebooks/Attempt 7.ipynb",
+      "original": "archive/classroom-raw/Attempt 7.ipynb",
+      "chapter": "08_reasoning.md",
+      "original_cells": [
+        {
+          "index": 0,
+          "id": "0e1fea1a-0761-42a9-910a-127af2e8c03e",
+          "source_sha256": "45a5f85c21beddcef23415a4550804f577f8e587a0df20526696e78639963986"
+        },
+        {
+          "index": 1,
+          "id": "5f2fe4d0-12f5-499e-bd02-1d55686490f0",
+          "source_sha256": "2daf7d58a256e379393a7ae1dfe5e72f3b8e028257668f09cb1e9ae6c889279e"
+        },
+        {
+          "index": 2,
+          "id": "f0899c4d-7a7d-4e87-b8e6-1dcafb67ea02",
+          "source_sha256": "dfd470ec58d50fcb68358e6ee64789cc71258060a026f65615d826605713826d"
+        },
+        {
+          "index": 3,
+          "id": "025ebbe5-e41e-4be9-94d9-a2d8eb1ab0bc",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 4,
+          "id": "97ee5ac0-b478-49b9-9874-4336b98a0994",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 5,
+          "id": "ad7d76d1-4afa-4455-9a4b-e3cb5f54e1f5",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 6,
+          "id": "5f707ef6-325a-4d2e-83c4-6fb32f32ed71",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 7,
+          "id": "d2562119-c499-4a38-abe8-a8e18fcf3a3b",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 8,
+          "id": "b8a7ff2b-b6c4-4de7-9442-4f010eb4ad5e",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 9,
+          "id": "3924d354-0d8b-410e-be1b-c6b8f52f8821",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 10,
+          "id": "72d123f3-d9f6-4778-8755-3bd9d3bd2d46",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 11,
+          "id": "6f4c592e-9b15-4178-aa66-d0756316ca5c",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 12,
+          "id": "a2e7589b-affa-479b-aaef-8c39f0c2495c",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 13,
+          "id": "1bc4e356-e236-4052-99bf-8b1af5fe708e",
+          "source_sha256": "6f37caa689c02f5151606a7595e42ebebed9493215011735fe26b9976be8ea96"
+        },
+        {
+          "index": 14,
+          "id": "19c6b5cb-99ae-48eb-aa6b-339987c1d312",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 15,
+          "id": "04373665-8aeb-4736-9e4a-1b08dda9f875",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 16,
+          "id": "5d0c2030-9b0c-47be-bc89-a57a0a42dca5",
+          "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "index": 17,
+          "id": "abc52fad-716e-4e69-8e6d-d8dd3833502c",
+          "source_sha256": "015c688f3fe2e733eafbc5e8431e84186f9e3c98f9da3d5545c8bbe82d3daa5e"
+        }
+      ],
+      "changes": [
+        {
+          "kind": "repair",
+          "original_cell": 1,
+          "cell_id": "s08-original-001",
+          "reason": "Use T4-compatible precision; the saved original run did not leave a usable model.",
+          "before_sha256": "2daf7d58a256e379393a7ae1dfe5e72f3b8e028257668f09cb1e9ae6c889279e",
+          "after_sha256": "decf557732dfcdbeabeddb59a9a8b5f0a968967973701c62cac15732c1f4437e"
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-001",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-002",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-003",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-004",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-005",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-006",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-007",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-008",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-009",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-010",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-011",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-012",
+          "near_original_cell": 13,
+          "reason": "Restore generation, trace extraction, and predictive-state alignment before the coherence notes."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-013",
+          "near_original_cell": 14,
+          "reason": "Restore the coherence-length implementation inline."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-014",
+          "near_original_cell": 14,
+          "reason": "Restore coherence-window estimation and its plot."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-015",
+          "near_original_cell": 14,
+          "reason": "Restore coherence-window estimation and its plot."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-016",
+          "reason": "Restore scoring functions after the original scoring note."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-017",
+          "reason": "Restore boundary detection and trace segmentation."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-018",
+          "reason": "Restore boundary detection and trace segmentation."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-019",
+          "reason": "Restore boundary detection and trace segmentation."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-020",
+          "reason": "Restore boundary detection and trace segmentation."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-021",
+          "reason": "Restore boundary detection and trace segmentation."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-022",
+          "reason": "Restore boundary detection and trace segmentation."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-023",
+          "reason": "Restore mean-pooling for each segment inline."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-024",
+          "reason": "Restore segment clustering and inspection."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-025",
+          "reason": "Restore segment clustering and inspection."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-026",
+          "reason": "Restore segment clustering and inspection."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-027",
+          "reason": "Restore segment clustering and inspection."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-028",
+          "reason": "Restore segment clustering and inspection."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-029",
+          "reason": "Restore segment clustering and inspection."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-030",
+          "reason": "Restore segment clustering and inspection."
+        },
+        {
+          "kind": "completion",
+          "cell_id": "s08-course-completion-031",
+          "reason": "Save trace completion, model device, and precision with the analysis."
+        }
+      ]
+    }
+  ]
+}

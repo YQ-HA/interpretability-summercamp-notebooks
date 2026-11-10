@@ -1,0 +1,11 @@
+test_attention_cannot_read_future_tokens (test_methods.MethodTests.test_attention_cannot_read_future_tokens) ... ok
+test_jaccard_uses_intersection_over_union (test_methods.MethodTests.test_jaccard_uses_intersection_over_union) ... ok
+test_segments_pool_their_own_spans (test_methods.MethodTests.test_segments_pool_their_own_spans) ... ok
+test_topk_keeps_only_requested_support (test_methods.MethodTests.test_topk_keeps_only_requested_support) ... ok
+test_topp_includes_the_threshold_crossing_token (test_methods.MethodTests.test_topp_includes_the_threshold_crossing_token) ... ok
+test_word_aggregation_uses_only_overlapping_story_subwords (test_methods.MethodTests.test_word_aggregation_uses_only_overlapping_story_subwords) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.252s
+
+OK

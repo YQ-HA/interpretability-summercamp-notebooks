@@ -1,0 +1,15 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "started_utc": "2026-10-26T17:54:41.236834+00:00",
+  "elapsed_seconds": 2.88,
+  "returncode": 0,
+  "status": "passed"
+}

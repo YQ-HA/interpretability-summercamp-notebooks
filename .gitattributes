@@ -1,0 +1,6 @@
+* text=auto eol=lf
+archive/** -text
+*.npz -text
+*.parquet -text
+results/** -text
+validation/** -text

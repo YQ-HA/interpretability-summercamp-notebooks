@@ -1,0 +1,7 @@
+{
+  "gpu": "Tesla T4",
+  "torch": "2.11.0+cu130",
+  "model_dtype": "float16",
+  "source_patch_applied": false,
+  "notebook_sha256": "07101ecf5050198417dfbb70a197c5cdef378610881148a52c4a8de2525bc113"
+}

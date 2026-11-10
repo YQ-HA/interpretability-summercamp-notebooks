@@ -1,0 +1,4 @@
+category,mcqa_mean,mcqa_median,clf_mean,clf_median
+fallen,0.1758,0.1441,0.0114,0.0131
+risen,0.0447,0.0477,0.0489,0.0422
+within_threshold,0.1314,0.0949,0.0402,0.0301

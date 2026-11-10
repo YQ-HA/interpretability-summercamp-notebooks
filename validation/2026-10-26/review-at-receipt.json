@@ -1,0 +1,455 @@
+{
+  "date": "2026-10-26",
+  "scope": "Inspection of supplied Colab artifacts; no new scientific execution",
+  "inputs": [
+    {
+      "file": "interpretability-classroom-notebooks(1).zip",
+      "bytes": 242327905,
+      "sha256": "f16f13e9c7f67d07dd068346f149aa059e7d684e7aa4bdae377b2065579c2125",
+      "crc": "passed"
+    },
+    {
+      "file": "classroom-validation-20261026T182259Z.zip",
+      "bytes": 5140204,
+      "sha256": "79412be6cf9e6351cc1b26573b861513a04d5b33b579974d564c9a9c2d9b6e6c",
+      "crc": "passed"
+    },
+    {
+      "file": "classroom-validation-20261026T183922Z.zip",
+      "bytes": 287428,
+      "sha256": "e992be4803ff848a024462b89dadd0e9c7a33eaced903bdf851c5b478ea3da73",
+      "crc": "passed"
+    }
+  ],
+  "sessions": [
+    {
+      "session": 1,
+      "notebook": "Attempt 1.ipynb",
+      "code_cells": 64,
+      "executed_nonempty_cells": 62,
+      "blank_cells": 2,
+      "source_and_notes": "exact match",
+      "input_hash": "matched",
+      "status": "passed",
+      "elapsed_seconds": 62.9
+    },
+    {
+      "session": 2,
+      "notebook": "Attempt2.ipynb",
+      "code_cells": 14,
+      "executed_nonempty_cells": 13,
+      "blank_cells": 1,
+      "source_and_notes": "exact match",
+      "input_hash": "matched",
+      "status": "passed",
+      "elapsed_seconds": 36.41
+    },
+    {
+      "session": 3,
+      "notebook": "Attempt 3.ipynb",
+      "code_cells": 13,
+      "executed_nonempty_cells": 12,
+      "blank_cells": 1,
+      "source_and_notes": "exact match",
+      "input_hash": "matched",
+      "status": "passed",
+      "elapsed_seconds": 64.98
+    },
+    {
+      "session": 4,
+      "notebook": "Notes on Attention and everything.ipynb",
+      "code_cells": 53,
+      "executed_nonempty_cells": 50,
+      "blank_cells": 3,
+      "source_and_notes": "exact match",
+      "input_hash": "matched",
+      "status": "passed",
+      "elapsed_seconds": 286.25
+    },
+    {
+      "session": 5,
+      "notebook": "Attempt 4.ipynb",
+      "code_cells": 54,
+      "executed_nonempty_cells": 52,
+      "blank_cells": 2,
+      "source_and_notes": "exact match",
+      "input_hash": "matched",
+      "status": "passed",
+      "elapsed_seconds": 54.74
+    },
+    {
+      "session": 6,
+      "notebook": "Attempt 5.ipynb",
+      "code_cells": 49,
+      "executed_nonempty_cells": 44,
+      "blank_cells": 5,
+      "source_and_notes": "exact match",
+      "input_hash": "matched",
+      "status": "passed",
+      "elapsed_seconds": 40.38
+    },
+    {
+      "session": 7,
+      "notebook": "Attempt 6.ipynb",
+      "code_cells": 36,
+      "executed_nonempty_cells": 35,
+      "blank_cells": 1,
+      "source_and_notes": "exact match",
+      "input_hash": "matched",
+      "status": "passed",
+      "elapsed_seconds": 860.28
+    },
+    {
+      "session": 8,
+      "notebook": "Attempt 7.ipynb",
+      "code_cells": 51,
+      "executed_nonempty_cells": 38,
+      "blank_cells": 13,
+      "source_and_notes": "exact match",
+      "input_hash": "matched",
+      "status": "passed",
+      "elapsed_seconds": 178.26
+    }
+  ],
+  "tables": [
+    {
+      "file": "results/session-07/summary.csv",
+      "rows": 3,
+      "columns": [
+        "category",
+        "mcqa_mean",
+        "mcqa_median",
+        "clf_mean",
+        "clf_median"
+      ]
+    },
+    {
+      "file": "results/session-07/risen.csv",
+      "rows": 10,
+      "columns": [
+        "",
+        "genre",
+        "word",
+        "grad_mean_across_stories",
+        "grad_sum_across_stories",
+        "n_stories",
+        "n_occurrences",
+        "global_grad_mean",
+        "genre_lift_mcqa",
+        "rank_mcqa",
+        "rank_clf",
+        "genre_lift_clf",
+        "rank_change",
+        "category"
+      ]
+    },
+    {
+      "file": "results/session-07/fallen.csv",
+      "rows": 10,
+      "columns": [
+        "",
+        "genre",
+        "word",
+        "grad_mean_across_stories",
+        "grad_sum_across_stories",
+        "n_stories",
+        "n_occurrences",
+        "global_grad_mean",
+        "genre_lift_mcqa",
+        "rank_mcqa",
+        "rank_clf",
+        "genre_lift_clf",
+        "rank_change",
+        "category"
+      ]
+    },
+    {
+      "file": "results/session-07/merged.csv",
+      "rows": 709,
+      "columns": [
+        "",
+        "genre",
+        "word",
+        "grad_mean_across_stories",
+        "grad_sum_across_stories",
+        "n_stories",
+        "n_occurrences",
+        "global_grad_mean",
+        "genre_lift_mcqa",
+        "rank_mcqa",
+        "rank_clf",
+        "genre_lift_clf",
+        "rank_change",
+        "category"
+      ]
+    },
+    {
+      "file": "results/session-07/probe_df.csv",
+      "rows": 33,
+      "columns": [
+        "",
+        "layer",
+        "genre",
+        "correct_letter",
+        "predicted_letter",
+        "shuffled"
+      ]
+    },
+    {
+      "file": "results/session-07/overlap_df.csv",
+      "rows": 5,
+      "columns": [
+        "",
+        "genre",
+        "jaccard",
+        "shared",
+        "shared_share"
+      ]
+    },
+    {
+      "file": "results/session-06/top_distinctive.csv",
+      "rows": 125,
+      "columns": [
+        "",
+        "genre",
+        "word",
+        "grad_mean_across_stories",
+        "grad_sum_across_stories",
+        "n_stories",
+        "n_occurrences",
+        "global_grad_mean",
+        "genre_lift"
+      ]
+    },
+    {
+      "file": "results/session-06/bias_by_layer.csv",
+      "rows": 165,
+      "columns": [
+        "",
+        "predicted_letter",
+        "observed",
+        "expected",
+        "observed_share",
+        "expected_share",
+        "excess_share",
+        "layer"
+      ]
+    },
+    {
+      "file": "results/session-06/genre_acc.csv",
+      "rows": 5,
+      "columns": [
+        "",
+        "true_genre",
+        "acc"
+      ]
+    },
+    {
+      "file": "results/session-06/genre_layer_summary.csv",
+      "rows": 165,
+      "columns": [
+        "",
+        "genre",
+        "layer",
+        "correct_margin"
+      ]
+    },
+    {
+      "file": "results/session-06/layer_dynamics.csv",
+      "rows": 66,
+      "columns": [
+        "",
+        "layer",
+        "measure",
+        "value"
+      ]
+    },
+    {
+      "file": "results/session-04/eos_df.csv",
+      "rows": 9,
+      "columns": [
+        "",
+        "config",
+        "stopped_early",
+        "text",
+        "perplexity"
+      ]
+    },
+    {
+      "file": "results/session-04/dist_df.csv",
+      "rows": 45,
+      "columns": [
+        "",
+        "method",
+        "metric",
+        "value"
+      ]
+    },
+    {
+      "file": "results/session-05/residuals.csv",
+      "rows": 8314,
+      "columns": [
+        "",
+        "token",
+        "p_null",
+        "p_mix",
+        "kl_contrib"
+      ]
+    },
+    {
+      "file": "results/session-05/mix_plot.csv",
+      "rows": 5,
+      "columns": [
+        "",
+        "mixture",
+        "genre"
+      ]
+    },
+    {
+      "file": "results/session-05/top_plot.csv",
+      "rows": 150,
+      "columns": [
+        "",
+        "token",
+        "wPMI",
+        "lift",
+        "genre"
+      ]
+    },
+    {
+      "file": "results/session-05/kl_plot.csv",
+      "rows": 50,
+      "columns": [
+        "",
+        "token",
+        "p_null",
+        "p_mix",
+        "kl_contrib",
+        "direction"
+      ]
+    },
+    {
+      "file": "results/session-08/scores_df.csv",
+      "rows": 2047,
+      "columns": [
+        "",
+        "position",
+        "score"
+      ]
+    },
+    {
+      "file": "results/session-08/cluster_df.csv",
+      "rows": 63,
+      "columns": [
+        "",
+        "lo",
+        "hi",
+        "step",
+        "label",
+        "text"
+      ]
+    }
+  ],
+  "nonfatal_log_messages": [
+    {
+      "log": "results/validation/session-02.log",
+      "phase": "cpu",
+      "joblib_cleanup": false,
+      "shutdown_callback": true,
+      "tensorflow_cuda_notice": true
+    },
+    {
+      "log": "results/validation/session-03.log",
+      "phase": "cpu",
+      "joblib_cleanup": false,
+      "shutdown_callback": true,
+      "tensorflow_cuda_notice": true
+    },
+    {
+      "log": "results/validation/session-07.log",
+      "phase": "cpu",
+      "joblib_cleanup": true,
+      "shutdown_callback": false,
+      "tensorflow_cuda_notice": false
+    },
+    {
+      "log": "results/validation/session-01.log",
+      "phase": "cpu",
+      "joblib_cleanup": false,
+      "shutdown_callback": true,
+      "tensorflow_cuda_notice": true
+    },
+    {
+      "log": "results/validation/session-04.log",
+      "phase": "cpu",
+      "joblib_cleanup": false,
+      "shutdown_callback": true,
+      "tensorflow_cuda_notice": true
+    },
+    {
+      "log": "results/validation/session-08.log",
+      "phase": "gpu",
+      "joblib_cleanup": false,
+      "shutdown_callback": true,
+      "tensorflow_cuda_notice": true
+    }
+  ],
+  "errors": [],
+  "source_zip_matches_local": true,
+  "cpu_runtime": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "imported_versions": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "torch": "2.11.0+cpu",
+      "transformers": "4.57.6",
+      "scikit-learn": "1.6.1",
+      "cuda_available": false
+    }
+  },
+  "gpu_runtime": {
+    "python": "3.13.16",
+    "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+    "imported_versions": {
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "torch": "2.11.0+cu130",
+      "transformers": "4.57.6",
+      "scikit-learn": "1.6.1",
+      "cuda_available": true
+    }
+  },
+  "trace_status": {
+    "generation_budget": 2048,
+    "generated_tokens": 2048,
+    "reasoning_complete": false,
+    "analyzed_positions": 2047,
+    "segments": 63,
+    "clusters": 3,
+    "model_device": "cuda:0",
+    "model_dtype": "torch.float16"
+  },
+  "cluster_sizes": {
+    "2": 1,
+    "0": 34,
+    "1": 28
+  },
+  "status": "passed",
+  "counts": {
+    "sessions": 8,
+    "code_cells": 334,
+    "executed_nonempty_cells": 306,
+    "blank_cells": 28,
+    "numerical_tests": 6,
+    "figures_decoded": 36,
+    "csv_tables_parsed": 19
+  },
+  "limits": [
+    "Session 08 reasoning was truncated at the generation budget; analysis completed.",
+    "A newline-only first segment occupies a one-item cluster; three clusters do not establish three reasoning strategies.",
+    "No scientific experiment was rerun locally.",
+    "The outer executed Classroom_Colab_Validation.ipynb was not supplied; the eight executed lesson notebooks and test/runtime logs were supplied."
+  ],
+  "visual_review": "All 36 PNGs decoded; contact sheets inspected across all plotted sessions."
+}

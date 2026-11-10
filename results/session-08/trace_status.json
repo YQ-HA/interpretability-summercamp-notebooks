@@ -1,0 +1,10 @@
+{
+  "generation_budget": 2048,
+  "generated_tokens": 2048,
+  "reasoning_complete": false,
+  "analyzed_positions": 2047,
+  "segments": 63,
+  "clusters": 3,
+  "model_device": "cuda:0",
+  "model_dtype": "torch.float16"
+}
